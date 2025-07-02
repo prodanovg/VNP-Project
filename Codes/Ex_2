@@ -1,0 +1,287 @@
+import requests
+from bs4 import BeautifulSoup
+from newspaper import Article
+from youtube_transcript_api import YouTubeTranscriptApi
+import yaml
+from langchain_openai import ChatOpenAI, OpenAIEmbeddings
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from pydantic import BaseModel
+from typing import List
+import time
+import warnings
+import os
+
+# Suppress Pydantic schema warning
+warnings.filterwarnings("ignore", category=UserWarning, module="pydantic._internal._generate_schema")
+
+def scrape_article(url):
+    """Scrape article content from URL"""
+    print(f"🔍 Scraping article from: {url}")
+
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                      "AppleWebKit/537.36 (KHTML, like Gecko) "
+                      "Chrome/114.0.0.0 Safari/537.36"
+    }
+
+    try:
+        response = requests.get(url, headers=headers, timeout=30)
+        response.raise_for_status()
+
+        # Method 1: BeautifulSoup approach
+        soup = BeautifulSoup(response.text, 'html.parser')
+        content_div = soup.find("div", class_="entry-content ap-pattern--entry-content")
+
+        if content_div:
+            article_text = content_div.get_text(separator="\n", strip=True)
+            with open("pure_scrum_clean.txt", "w", encoding="utf-8") as f:
+                f.write(article_text)
+            print("✅ Article scraped successfully with BeautifulSoup")
+        else:
+            print("⚠️ Specific div not found, trying newspaper3k...")
+
+        # Method 2: Newspaper3k approach (as backup)
+        article = Article(url)
+        article.download()
+        article.parse()
+
+        if article.text:
+            with open("pure_scrum_clean2.txt", "w", encoding="utf-8") as f:
+                f.write(article.text)
+            print("✅ Article scraped successfully with newspaper3k")
+            return article.text
+        else:
+            print("❌ Failed to extract article content")
+            return None
+
+    except requests.RequestException as e:
+        print(f"❌ Error fetching article: {e}")
+        return None
+
+def get_youtube_transcript(video_id):
+    """Get YouTube transcript"""
+    print(f"🎥 Getting YouTube transcript for video: {video_id}")
+
+    try:
+        transcript_list = YouTubeTranscriptApi.get_transcript(video_id)
+        transcript = " ".join([item['text'] for item in transcript_list])
+
+        with open("youtubeVideo.txt", "w", encoding="utf-8") as f:
+            f.write(transcript)
+
+        print("✅ YouTube transcript downloaded successfully")
+        return transcript
+
+    except Exception as e:
+        print(f"❌ Error getting YouTube transcript: {e}")
+        return None
+
+def load_config():
+    """Load configuration from YAML file"""
+    try:
+        with open("config.yml", "r") as f:
+            config = yaml.safe_load(f)
+        return config
+    except FileNotFoundError:
+        print("❌ config.yml not found. Creating sample config...")
+        sample_config = {
+            'llm': {
+                'model_type': 'openai',
+                'model_name': 'gpt-3.5-turbo',
+                'temperature': 0.7,
+                'max_tokens': 2000,
+                'api_key': 'your-openai-api-key-here'
+            }
+        }
+        with open("config.yml", "w") as f:
+            yaml.dump(sample_config, f, default_flow_style=False)
+        print("📝 Sample config.yml created. Please add your OpenAI API key.")
+        return None
+
+def initialize_llm(config):
+    """Initialize LLM and embeddings"""
+    if not config:
+        return None, None
+
+    llm_config = config['llm']
+
+    # Check if API key is provided
+    api_key = llm_config.get('api_key')
+    if not api_key or api_key == 'your-openai-api-key-here':
+        # Try to get from environment variable
+        api_key = os.getenv('OPENAI_API_KEY')
+        if not api_key:
+            print("❌ OpenAI API key not found. Please set OPENAI_API_KEY environment variable or update config.yml")
+            return None, None
+
+    try:
+        if llm_config['model_type'] == "openai":
+            llm = ChatOpenAI(
+                model=llm_config.get('model_name', 'gpt-3.5-turbo'),
+                temperature=llm_config.get('temperature', 0.7),
+                max_tokens=llm_config.get('max_tokens', 2000),
+                api_key=api_key
+            )
+            embeddings = OpenAIEmbeddings(api_key=api_key)
+            print("✅ LLM and Embeddings initialized successfully")
+            return llm, embeddings
+        else:
+            print("❌ Only 'openai' model type is supported")
+            return None, None
+
+    except Exception as e:
+        print(f"❌ Error initializing LLM: {e}")
+        return None, None
+
+class Triple(BaseModel):
+    subject: str
+    predicate: str
+    object: str
+
+class TriplesOutput(BaseModel):
+    triples: List[Triple]
+
+def simple_kg_extraction(text, llm):
+    """Simple knowledge graph extraction using direct LLM prompts"""
+    if not llm:
+        print("❌ LLM not initialized")
+        return []
+
+    prompt = f"""
+    Extract knowledge graph triples from the following text in the format (subject, predicate, object).
+    Focus on the most important relationships and entities.
+
+    Text: {text[:2000]}...  # Limit text length for API limits
+
+    Please return triples in the format:
+    - (Entity1, relationship, Entity2)
+    - (Entity1, relationship, Entity2)
+
+    Limit to the 10 most important triples.
+    """
+
+    try:
+        response = llm.invoke(prompt)
+        # Simple parsing of the response
+        lines = response.content.split('\n')
+        triples = []
+        for line in lines:
+            if line.strip().startswith('-') and '(' in line and ')' in line:
+                # Extract content between parentheses
+                start = line.find('(')
+                end = line.find(')')
+                if start != -1 and end != -1:
+                    triple_str = line[start+1:end]
+                    parts = [part.strip() for part in triple_str.split(',')]
+                    if len(parts) == 3:
+                        triples.append((parts[0], parts[1], parts[2]))
+
+        return triples
+    except Exception as e:
+        print(f"❌ Error in KG extraction: {e}")
+        return []
+
+def process_text_in_chunks(text, llm, chunk_size=1000, chunk_overlap=100):
+    """Process text in chunks to avoid rate limits"""
+    print(f"📝 Processing text in chunks...")
+
+    splitter = RecursiveCharacterTextSplitter(
+        chunk_size=chunk_size,
+        chunk_overlap=chunk_overlap
+    )
+    chunks = splitter.split_text(text)
+
+    print(f"🔹 Created {len(chunks)} chunks")
+
+    all_triples = []
+    MAX_RETRIES = 3
+    DELAY_BETWEEN_CHUNKS = 2
+
+    for i, chunk in enumerate(chunks, 1):
+        print(f"\n🔹 Processing chunk {i}/{len(chunks)}")
+
+        for attempt in range(1, MAX_RETRIES + 1):
+            try:
+                triples = simple_kg_extraction(chunk, llm)
+                if triples:
+                    all_triples.extend(triples)
+                    print(f"✅ Chunk {i} → {len(triples)} triples extracted")
+                else:
+                    print(f"⚠️ Chunk {i} → No triples extracted")
+                break
+
+            except Exception as e:
+                print(f"⚠️ Chunk {i} failed (attempt {attempt}): {e}")
+                if attempt < MAX_RETRIES:
+                    time.sleep(DELAY_BETWEEN_CHUNKS * attempt)
+                else:
+                    print(f"❌ Chunk {i} failed after {MAX_RETRIES} attempts")
+
+        # Brief pause between chunks to avoid rate limits
+        if i < len(chunks):
+            time.sleep(DELAY_BETWEEN_CHUNKS)
+
+    return all_triples
+
+def save_triples(triples, filename="extracted_triples.txt"):
+    """Save triples to file"""
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write("Extracted Knowledge Graph Triples:\n")
+        f.write("=" * 40 + "\n\n")
+        for i, (subject, predicate, obj) in enumerate(triples, 1):
+            f.write(f"{i}. ({subject}) --[{predicate}]--> ({obj})\n")
+
+    print(f"💾 Triples saved to {filename}")
+
+def main():
+    """Main execution function"""
+    print("🚀 Starting Knowledge Graph Extraction Pipeline\n")
+
+    # Step 1: Scrape article
+    url = "https://age-of-product.com/pure-scrum/"
+    article_text = scrape_article(url)
+
+    # Step 2: Get YouTube transcript
+    video_id = "502ILHjX9EE"
+    youtube_text = get_youtube_transcript(video_id)
+
+    # Step 3: Choose which text to process
+    if youtube_text:
+        input_text = youtube_text
+        print("📋 Using YouTube transcript for KG extraction")
+    elif article_text:
+        input_text = article_text
+        print("📋 Using article text for KG extraction")
+    else:
+        print("❌ No text available for processing")
+        return
+
+    # Step 4: Load configuration and initialize LLM
+    config = load_config()
+    llm, embeddings = initialize_llm(config)
+
+    if not llm:
+        print("❌ Cannot proceed without LLM initialization")
+        return
+
+    # Step 5: Process text and extract knowledge graph
+    print(f"\n📊 Input text length: {len(input_text)} characters")
+    all_triples = process_text_in_chunks(input_text, llm)
+
+    # Step 6: Save results
+    if all_triples:
+        print(f"\n✅ Total triples extracted: {len(all_triples)}")
+        save_triples(all_triples)
+
+        # Display first few triples
+        print("\n🔍 Sample triples:")
+        for i, (subject, predicate, obj) in enumerate(all_triples[:5], 1):
+            print(f"  {i}. ({subject}) --[{predicate}]--> ({obj})")
+
+        if len(all_triples) > 5:
+            print(f"  ... and {len(all_triples) - 5} more triples")
+    else:
+        print("❌ No triples were successfully extracted")
+
+if __name__ == "__main__":
+    main()

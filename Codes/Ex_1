@@ -1,0 +1,126 @@
+import requests
+from bs4 import BeautifulSoup
+from newspaper import Article
+from youtube_transcript_api import YouTubeTranscriptApi
+from itext2kg.documents_distiller import DocumentsDistiller
+from itext2kg import iText2KG
+import yaml
+from langchain_openai import ChatOpenAI, OpenAIEmbeddings
+from langchain_core.caches import BaseCache
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from pydantic import BaseModel
+from typing import List
+import time
+import warnings
+
+# Suppress Pydantic schema warning
+warnings.filterwarnings("ignore", category=UserWarning, module="pydantic._internal._generate_schema")
+
+# Fix for PydanticUserError
+ChatOpenAI.BaseCache = BaseCache
+ChatOpenAI.model_rebuild()
+
+# === PART 1: SCRAPE ARTICLE ===
+url = "https://age-of-product.com/pure-scrum/"
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                  "AppleWebKit/537.36 (KHTML, like Gecko) "
+                  "Chrome/114.0.0.0 Safari/537.36"
+}
+response = requests.get(url, headers=headers)
+if response.status_code == 200:
+    soup = BeautifulSoup(response.text, 'html.parser')
+    content_div = soup.find("div", class_="entry-content ap-pattern--entry-content")
+    if content_div:
+        article_text = content_div.get_text(separator="\n", strip=True)
+        with open("pure_scrum_clean.txt", "w", encoding="utf-8") as f:
+            f.write(article_text)
+    else:
+        print("❌ Could not find main article content.")
+else:
+    print(f"❌ HTTP Error {response.status_code} fetching article.")
+
+# === PART 2: Newspaper3k parse ===
+article = Article(url)
+article.download()
+article.parse()
+with open("pure_scrum_clean2.txt", "w", encoding="utf-8") as f:
+    f.write(article.text)
+
+# === PART 3: YouTube transcript ===
+video_id = "502ILHjX9EE"
+transcript = " ".join([item['text'] for item in YouTubeTranscriptApi.get_transcript(video_id)])
+with open("youtubeVideo.txt", "w", encoding="utf-8") as f:
+    f.write(transcript)
+
+# === PART 4: Load OpenAI LLM ===
+with open("youtubeVideo.txt", "r", encoding="utf-8") as f:
+    input_text = f.read()
+
+with open("config.yml", "r") as f:
+    config = yaml.safe_load(f)
+
+llm_config = config['llm']
+
+if llm_config['model_type'] == "openai":
+    llm = ChatOpenAI(
+        model=llm_config.get('model_name', 'gpt-3.5-turbo'),
+        temperature=llm_config.get('temperature', 0.7),
+        max_tokens=llm_config.get('max_tokens', 2000),
+        api_key=llm_config['api_key']
+    )
+else:
+    raise ValueError("Only 'openai' is supported.")
+
+embeddings = OpenAIEmbeddings(api_key=llm_config['api_key'])
+
+print("✅ LLM and Embeddings initialized.")
+
+# === PART 5: KG Extraction (Sequential, With Retry) ===
+class Triple(BaseModel):
+    subject: str
+    predicate: str
+    object: str
+
+class TriplesOutput(BaseModel):
+    triples: List[Triple]
+
+distiller = DocumentsDistiller(llm_model=llm)
+splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
+chunks = splitter.split_text(input_text)
+itext2kg = iText2KG(llm_model=llm, embeddings_model=embeddings)
+
+MAX_RETRIES = 5
+DELAY_BETWEEN_CHUNKS = 10
+RATE_LIMIT_DELAY = 20
+
+def process_chunk(i, chunk):
+    print(f"\n🔹 Starting chunk {i}/{len(chunks)}")
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            kg = itext2kg.build_graph(
+                sections=[chunk],
+                ent_threshold=0.6,
+                rel_threshold=0.6,
+                output_data_structure=TriplesOutput
+            )
+            triples = [(rel.startEntity.name, rel.name, rel.endEntity.name) for rel in kg.relationships]
+            print(f"✅ Chunk {i} → {len(triples)} triples")
+            return triples
+        except Exception as e:
+            print(f"⚠️ Chunk {i} failed (attempt {attempt}): {e}")
+            if "rate limit" in str(e).lower():
+                print(f"🛑 Rate limit hit. Sleeping {RATE_LIMIT_DELAY}s...")
+                time.sleep(RATE_LIMIT_DELAY)
+            else:
+                time.sleep(DELAY_BETWEEN_CHUNKS)
+    print(f"❌ Chunk {i} failed after {MAX_RETRIES} attempts.")
+    return []
+
+print(f"\n🚀 Processing {len(chunks)} chunks sequentially to avoid rate limits...\n")
+all_triples = []
+for i, chunk in enumerate(chunks, 1):
+    triples = process_chunk(i, chunk)
+    all_triples.extend(triples)
+
+print(f"\n✅ Total triples extracted: {len(all_triples)}")
