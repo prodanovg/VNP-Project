@@ -8,7 +8,7 @@ neo4j_password = "C7lGNGNUB8OS0EbryefTxTP4-Gj8iXz6M1YwxG53-LA"
 def main():
     try:
         driver = GraphDatabase.driver(
-            "neo4j://af421f35.databases.neo4j.io",
+            "neo4j+s://af421f35.databases.neo4j.io",
             auth=(neo4j_user, neo4j_password)
         )
 

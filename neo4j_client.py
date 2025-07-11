@@ -1,12 +1,8 @@
-from neo4j import GraphDatabase, basic_auth
-
-neo4j_uri = "neo4j+s://af421f35.databases.neo4j.io"
-neo4j_user = "neo4j"
-neo4j_password = "C7lGNGNUB8OS0EbryefTxTP4-Gj8iXz6M1YwxG53-LA"
+from neo4j import GraphDatabase
 
 class Neo4jClient:
-    def __init__(self):
-        self.driver = GraphDatabase.driver(neo4j_uri, auth=basic_auth(neo4j_user, neo4j_password))
+    def __init__(self, uri="bolt://localhost:7687", user="neo4j", password="12345678"):
+        self.driver = GraphDatabase.driver(uri, auth=(user, password))
 
     def close(self):
         self.driver.close()
@@ -14,14 +10,14 @@ class Neo4jClient:
     def create_triples(self, triples):
         with self.driver.session() as session:
             for subj, pred, obj in triples:
-                session.write_transaction(self._create_single_triple, subj, pred, obj)
+                session.execute_write(self._create_single_triple, subj, pred, obj)
 
     @staticmethod
     def _create_single_triple(tx, subj, pred, obj):
         query = """
-        MERGE (a:Entity {name: $subj})
-        MERGE (b:Entity {name: $obj})
-        MERGE (a)-[r:RELATION {type: $pred}]->(b)
-        RETURN a, r, b
+        MERGE (s:Entity {name: $subj})
+        MERGE (o:Entity {name: $obj})
+        MERGE (s)-[r:RELATION {type: $pred}]->(o)
+        RETURN s, r, o
         """
-        tx.run(query, subj=subj, obj=obj, pred=pred)
+        tx.run(query, subj=subj, pred=pred, obj=obj)
