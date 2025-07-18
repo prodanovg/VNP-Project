@@ -1,6 +1,6 @@
 Extracted Knowledge Graph Triples:
 ========================================
 
-1. (pat) --[is a]--> (product owner)
-2. (product owner) --[is a role in]--> (agile software development)
-3. (agile software development) --[perspective of]--> (product owner)
+1. (pat) --[product owner]--> (agile software development)
+2. (pat) --[person]--> (product owner)
+3. (agile software development) --[methodology]--> (perspective of pat (the product owner))
