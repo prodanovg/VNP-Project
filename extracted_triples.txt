@@ -1,6 +1,4 @@
 Extracted Knowledge Graph Triples:
 ========================================
 
-1. (pat) --[product owner]--> (agile software development)
-2. (pat) --[person]--> (product owner)
-3. (agile software development) --[methodology]--> (perspective of pat (the product owner))
+1. (john) --[marriage]--> (marriage between john and jane)
