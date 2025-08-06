@@ -1,4 +1,5 @@
 Extracted Knowledge Graph Triples:
 ========================================
 
-1. (john) --[marriage]--> (marriage between john and jane)
+1. (pat) --[expresses]--> (group of individuals representing the needs and requirements for software development)
+2. (pat) --[helps]--> (group of individuals representing the needs and requirements for software development)
