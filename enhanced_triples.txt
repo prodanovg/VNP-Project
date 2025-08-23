@@ -1,0 +1,40 @@
+# Enhanced Knowledge Graph Extraction Results
+# Total triples: 14
+# Extraction methods: pattern_matching, llm_extraction
+
+## Triples (Subject-Predicate-Object Format)
+  1. (5. Somebody) --[build]--> (Flight Booking System)
+  2. (5. Stakeholders) --[will_use]--> (System Being Developed)
+  3. (6. Stakeholders) --[will_support]--> (System Being Developed)
+  4. (3. Pat) --[know]--> (Problem To Solve)
+  5. (7. Stakeholders) --[will_be_affected_by]--> (System Being Developed)
+  6. (1. Pat) --[ha]--> (Ideas)
+  7. (4. Pat) --[create]--> (User Stories)
+  8. (1. Pat) --[is_a]--> (Product Owner)
+  9. (2. Stakeholders) --[have]--> (Ideas)
+ 10. (8. Pat's Vision) --[is_about]--> (Stakeholders' Needs)
+ 11. (2. Pat) --[ha]--> (Product Vision)
+ 12. (9. User Stories) --[expres]--> (Stakeholders' Needs And Pat's Ideas)
+ 13. (3. Pat) --[help]--> (Turn Ideas Into User Stories)
+ 14. (4. Pat) --[know]--> (Target Audience)
+
+## CSV Format
+Subject,Predicate,Object
+"5. Somebody","build","Flight Booking System"
+"5. Stakeholders","will_use","System Being Developed"
+"6. Stakeholders","will_support","System Being Developed"
+"3. Pat","know","Problem To Solve"
+"7. Stakeholders","will_be_affected_by","System Being Developed"
+"1. Pat","ha","Ideas"
+"4. Pat","create","User Stories"
+"1. Pat","is_a","Product Owner"
+"2. Stakeholders","have","Ideas"
+"8. Pat's Vision","is_about","Stakeholders' Needs"
+"2. Pat","ha","Product Vision"
+"9. User Stories","expres","Stakeholders' Needs And Pat's Ideas"
+"3. Pat","help","Turn Ideas Into User Stories"
+"4. Pat","know","Target Audience"
+
+## Statistics
+- pattern_matching: 0 triples
+- llm_extraction: 14 triples
