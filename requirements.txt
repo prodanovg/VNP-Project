@@ -14,6 +14,7 @@ scikit-learn==1.7.0
 #Document processing and data handling
 openpyxl==3.1.0
 pypdf==4.3.0
+PyMuPDF
 
 #AI/ML utilities and tokenization
 tiktoken==0.8.0

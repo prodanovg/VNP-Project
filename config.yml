@@ -1,23 +1,11 @@
-#llm:
-#  model_type: "openai"  # "huggingface"
-#  model_name: "gpt-3.5-turbo"
-#  temperature: 0.7
-#  max_tokens: 2000
-#  api_key: "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"
-#  api_base: "https://api.openai.com/v1"
-#  timeout: 60
-#  max_retries: 3
-#paths:
-#  output_dir: "./output"
-
 
 llm:
   model_type: ollama
   model_name: llama3.1
   format: json
   temperature: 0.1
-  max_tokens: 3000
-  timeout: 90
-  max_retries: 5
+  max_tokens: 1000
+  timeout: 45
+  max_retries: 3
 paths:
   output_dir: ./output

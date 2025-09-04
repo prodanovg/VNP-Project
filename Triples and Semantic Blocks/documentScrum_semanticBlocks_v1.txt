@@ -1,0 +1,432 @@
+# Semantic Blocks Generated
+# Total: 99 blocks
+
+Block 1:
+Content Block: The Nexus™ Guide
+The Definitive Guide to Scaling Scrum with Nexus
+
+January 2021
+
+© 2021 Scrum.org. Offered for license under the Offered for license under the Attribution Share Alike license of Creative
+Commons, accessible at http://creativecommons.org/licenses/by-sa/4.0/legalcode and also described in summary form at
+http://creativecommons.org/licenses/by-sa/4.0/. By utilizing this Nexus Guide, you acknowledge and agree that you have
+read and a...
+--------------------------------------------------
+
+Block 2:
+Methodology and Framework: Extends Scrum to minimize and manage dependencies between multiple Scrum Teams
+--------------------------------------------------
+
+Block 3:
+Processes and Workflows: Each element of the framework serves a specific purpose that is essential to help teams and organizations scale the benefits of Scrum with multiple teams working together.
+--------------------------------------------------
+
+Block 4:
+Introduction: The Nexus framework inherits the purpose and intent of the Scrum framework as documented in the Scrum Guide (www.scrumguides.org.) Scaled Scrum is still Scrum. Nexus does not change the core design or ideas of Scrum, or leave out elements, or negate the rules of Scrum.
+--------------------------------------------------
+
+Block 5:
+Objectives and Goals: Promote empiricism and Scrum Values in scaled Scrum environments
+--------------------------------------------------
+
+Block 6:
+Key Concepts and Definitions: Empiricism and Scrum Values
+--------------------------------------------------
+
+Block 7:
+Scrum Roles and Responsibilities: Scrum Master, Product Owner, Development Team
+--------------------------------------------------
+
+Block 8:
+Introduction: The purpose of the Nexus Guide is to provide an overview of the Nexus software development process and its components.
+--------------------------------------------------
+
+Block 9:
+Background: The Nexus Guide is a document developed by Ken Schwaber and Scrum.org to describe the Nexus software development process.
+--------------------------------------------------
+
+Block 10:
+Key Concepts and Definitions: Scrum, Nexus, Software Development Process
+--------------------------------------------------
+
+Block 11:
+Terminology and Definitions: Nexus Definition: The Nexus guide defines Nexus as a framework for scaling Scrum in complex environments.
+--------------------------------------------------
+
+Block 12:
+Roles and Responsibilities: Accountabilities in Nexus
+--------------------------------------------------
+
+Block 13:
+Scrum Events and Ceremonies: Sprint, Cross-Team Refinement, Nexus Sprint Planning, Nexus Daily Scrum, Nexus Sprint Review
+--------------------------------------------------
+
+Block 14:
+Document Title: Nexus Sprint Retrospective
+--------------------------------------------------
+
+Block 15:
+Scrum Events and Ceremonies: Sprint Planning, Daily Scrum, Sprint Review, Sprint Retrospective
+--------------------------------------------------
+
+Block 16:
+Content Block: 9
+Integrated Increment ................................................................................................................................................ 9
+Commitment: Definition of Done ......................................................................................................................... 9
+End Note ............................................................................................................................................................ 10
+Ac...
+--------------------------------------------------
+
+Block 17:
+Methodology and Framework: The Nexus framework defines the accountabilities, events, and artifacts that bind and weave together the work of the Scrum Teams in a Nexus. It minimally extends the Scrum framework only where absolutely necessary to enable multiple teams to work from a single Product Backlog to build an Integrated Increment that meets a goal.
+--------------------------------------------------
+
+Block 18:
+Processes and Workflows: Scrum Teams work together, Single Product Owner manages a single Product Backlog
+--------------------------------------------------
+
+Block 19:
+Roles and Responsibilities: Product Owner manages the Product Backlog, Scrum Teams work from it
+--------------------------------------------------
+
+Block 20:
+Introduction: A Nexus is a group of approximately three to nine Scrum Teams that work together to deliver a single product; it is a connection between people and things.
+--------------------------------------------------
+
+Block 21:
+Objectives and Goals: Deliver a single product
+--------------------------------------------------
+
+Block 22:
+Results: Integrated Increment that meets a goal
+--------------------------------------------------
+
+Block 23:
+Key Concepts and Definitions: Nexus, Scrum Team, Product Owner, Product Backlog, Integrated Increment
+--------------------------------------------------
+
+Block 24:
+Methodology and Framework: Preserve and enhance Scrum's foundational bottom-up intelligence and empiricism
+--------------------------------------------------
+
+Block 25:
+Processes and Workflows: Nexus Framework helps teams solve common scaling challenges
+--------------------------------------------------
+
+Block 26:
+Objectives and Goals: Reduce complexity in collaboration, preserve team self-management and transparency, ensure accountability
+--------------------------------------------------
+
+Block 27:
+Key Concepts and Definitions: Scaling Scrum to deliver more value than a single team
+--------------------------------------------------
+
+Block 28:
+Document Title: Scaling Down for More Value
+--------------------------------------------------
+
+Block 29:
+Methodology and Framework: Scrum software development process with Nexus framework.
+--------------------------------------------------
+
+Block 30:
+Processes and Workflows: Scaling-down, reducing the number of people who work on something.
+--------------------------------------------------
+
+Block 31:
+Objectives and Goals: To deliver more value without increasing the size of the team or product.
+--------------------------------------------------
+
+Block 32:
+Results: Increased efficiency and reduced complexity.
+--------------------------------------------------
+
+Block 33:
+Key Concepts and Definitions: Reducing complexity and dependencies by scaling down the number of people involved in a product.
+--------------------------------------------------
+
+Block 34:
+Content Block: The Nexus Framework
+Nexus builds upon Scrum by enhancing the foundational elements of Scrum in ways that help solve the
+dependency and collaboration challenges of cross-team work. Nexus (see Figure 1) reveals an empirical
+process that closely mirrors Scrum. © 2021 Scrum.org. Offered for license under the Offered for license under the Attribution Share Alike license of Creative
+Commons, accessible at http://creativecommons.org/licenses/by-sa/4.0/legalcode and also described in summary form at...
+--------------------------------------------------
+
+Block 35:
+Document Title: Nexus Integration Team Roles and Responsibilities
+--------------------------------------------------
+
+Block 36:
+Scrum Artifacts and Deliverables: Product Backlog, Nexus Sprint Backlog
+--------------------------------------------------
+
+Block 37:
+Roles and Responsibilities: Product Owner: responsible for the Product Backlog; Scrum Master: responsible for facilitating Nexus Sprint Goals and Integrated Increments; Nexus Integration Team Members: responsible for contributing to the overall effort of all Scrum Teams in the Nexus.
+--------------------------------------------------
+
+Block 38:
+Background: The Nexus Integration Team consists of the Product Owner, a Scrum Master, and Nexus Integration Team Members.
+--------------------------------------------------
+
+Block 39:
+Document Title: Roles and Responsibilities in Scrum
+--------------------------------------------------
+
+Block 40:
+Roles and Responsibilities: Developers: Implement the Sprint Backlog; Product Owner: Prioritize and refine the Product Backlog; Scrum Master: Facilitate Scrum events and remove impediments; Nexus Integration Team: Ensure a done Integrated Increment is produced at least once a Sprint
+--------------------------------------------------
+
+Block 41:
+Key Concepts and Definitions: Scrum Team, Developers, Product Owner, Scrum Master, Nexus Integration Team
+--------------------------------------------------
+
+Block 42:
+Document Title: Nexus Integration Team
+--------------------------------------------------
+
+Block 43:
+Methodology and Framework: bottom-up intelligence from within the Nexus to achieve resolution
+--------------------------------------------------
+
+Block 44:
+Roles and Responsibilities: Product Owner, Scrum Master, and appropriate members from the Scrum Teams belong to the Nexus Integration Team
+--------------------------------------------------
+
+Block 45:
+Objectives and Goals: address integration issues within the Nexus, provide a focal point of integration for the Nexus
+--------------------------------------------------
+
+Block 46:
+Key Concepts and Definitions: accountability of multiple Scrum Teams to come together to create valuable, useful Increments
+--------------------------------------------------
+
+Block 47:
+Processes and Workflows: Coaching, consulting, highlighting dependencies and cross-team issues
+--------------------------------------------------
+
+Block 48:
+Roles and Responsibilities: Product Owner: final say on Product Backlog contents, maximizing value; Scrum Master: ensuring Nexus framework is understood and enacted
+--------------------------------------------------
+
+Block 49:
+Objectives and Goals: Maximizing value of product, effective Product Backlog management
+--------------------------------------------------
+
+Block 50:
+Key Concepts and Definitions: Scrum framework, Nexus Integration Team, Product Owner, Scrum Master
+--------------------------------------------------
+
+Block 51:
+Scrum Events and Ceremonies: Nexus Events (extends the events defined by Scrum)
+--------------------------------------------------
+
+Block 52:
+Methodology and Framework: Coaching and guiding the Scrum Teams to acquire, implement, and learn practices and tools.
+--------------------------------------------------
+
+Block 53:
+Roles and Responsibilities: The Nexus Integration Team is responsible for coaching and guiding the Scrum Teams.
+--------------------------------------------------
+
+Block 54:
+Objectives and Goals: To adopt tools and practices that contribute to the Scrum Teams' ability to deliver a valuable and useful Integrated Increment.
+--------------------------------------------------
+
+Block 55:
+Key Concepts and Definitions: Nexus Integration Team, Nexus Events, Scrum Teams, Definition of Done
+--------------------------------------------------
+
+Block 56:
+Document Title: Nexus Events and Scrum Guide
+--------------------------------------------------
+
+Block 57:
+Key Concepts and Definitions: Timeboxed Nexus events based on corresponding Scrum events
+--------------------------------------------------
+
+Block 58:
+Scrum Events and Ceremonies: Sprint, Cross-Team Refinement
+--------------------------------------------------
+
+Block 59:
+Processes and Workflows: Cross-Team Refinement is ongoing. The frequency, duration, and attendance of Cross-Team Refinement varies to optimize the two purposes.
+--------------------------------------------------
+
+Block 60:
+Methodology and Framework: Representatives from each Scrum Team and the Product Owner meet to plan the Sprint.
+--------------------------------------------------
+
+Block 61:
+Introduction: The purpose of Nexus Sprint Planning is to coordinate the activities of all Scrum Teams within a Nexus for a single Sprint.
+--------------------------------------------------
+
+Block 62:
+Objectives and Goals: To plan the Sprint and ensure that the Product Backlog items are ready for selection.
+--------------------------------------------------
+
+Block 63:
+Key Concepts and Definitions: Sprint planning, Product Backlog refinement
+--------------------------------------------------
+
+Block 64:
+Content Block: The result of Nexus Sprint Planning is:
+● a Nexus Sprint Goal that aligns with the Product Goal and describes the purpose that will be
+achieved by the Nexus during the Sprint
+● a Sprint Goal for each Scrum Team that aligns with the Nexus Sprint Goal
+● a single Nexus Sprint Backlog that represents the work of the Nexus toward the Nexus Sprint
+Goal and makes cross-team dependencies transparent
+● A Sprint Backlog for each Scrum Team, which makes transparent the work they will do in
+support ...
+--------------------------------------------------
+
+Block 65:
+Scrum Roles and Responsibilities: Scrum Teams, appropriate representatives
+--------------------------------------------------
+
+Block 66:
+Processes and Workflows: Each Scrum Team’s Daily Scrum complements the Nexus Daily Scrum by creating plans for the day, focused primarily on addressing the integration issues raised during the Nexus Daily Scrum.
+--------------------------------------------------
+
+Block 67:
+Roles and Responsibilities: Appropriate representatives from the Scrum Teams attend the Nexus Daily Scrum and inspect the current state of the integrated Increment.
+--------------------------------------------------
+
+Block 68:
+Workflow and Procedures: Cross-team communication can occur throughout the day for more detailed discussions about adapting or re-planning the rest of the Sprint’s work.
+--------------------------------------------------
+
+Block 69:
+Introduction: The purpose of the Nexus Daily Scrum is to identify any integration issues and inspect progress toward the Nexus Sprint Goal.
+--------------------------------------------------
+
+Block 70:
+Objectives and Goals: Identify integration issues, inspect progress toward the Nexus Sprint Goal, and create plans for the day.
+--------------------------------------------------
+
+Block 71:
+Processes and Workflows: Attendees collaborate on what to do to address feedback, adjust Product Backlog
+--------------------------------------------------
+
+Block 72:
+Roles and Responsibilities: Nexus team, stakeholders
+--------------------------------------------------
+
+Block 73:
+Objectives and Goals: Provide feedback on the done work, determine future adaptations
+--------------------------------------------------
+
+Block 74:
+Results: Feedback captured, future adaptations determined
+--------------------------------------------------
+
+Block 75:
+Key Concepts and Definitions: Sprint Review, Integrated Increment, Product Goal
+--------------------------------------------------
+
+Block 76:
+Scrum Roles and Responsibilities: Scrum Teams, Nexus Integration Team
+--------------------------------------------------
+
+Block 77:
+Scrum Artifacts and Deliverables: Nexus Artifacts, Commitments Artifacts
+--------------------------------------------------
+
+Block 78:
+Methodology and Framework: The Nexus Sprint Retrospective concludes the Sprint. Nexus Artifacts and Commitments Artifacts represent work or value.
+--------------------------------------------------
+
+Block 79:
+Roles and Responsibilities: Nexus Integration Team works with Scrum Teams to achieve transparency
+--------------------------------------------------
+
+Block 80:
+Background: The Nexus inspects how the last Sprint went with regards to individuals, teams, interactions, processes, tools, and its Definition of Done.
+--------------------------------------------------
+
+Block 81:
+Objectives and Goals: Maximize transparency across all artifacts and ensure the state of the Integrated Increment is widely understood.
+--------------------------------------------------
+
+Block 82:
+Key Concepts and Definitions: Nexus, Scrum Teams, Nexus Integration Team
+--------------------------------------------------
+
+Block 83:
+Content Block: Offered for license under the Offered for license under the Attribution Share Alike license of Creative
+Commons, accessible at http://creativecommons.org/licenses/by-sa/4.0/legalcode and also described in summary form at
+http://creativecommons.org/licenses/by-sa/4.0/. By utilizing this Nexus Guide, you acknowledge and agree that you have
+read and agree to be bound by the terms of the Attribution Share-Alike license of Creative Commons. 9
+Product Backlog
+There is a single Product Backlog th...
+--------------------------------------------------
+
+Block 84:
+Content Block: The Product Goal, which describes the
+future state of the product and serves as a long-term goal of the Nexus. Nexus Sprint Backlog
+A Nexus Sprint Backlog is the composite of the Nexus Sprint Goal and Product Backlog items from the
+Sprint Backlogs of the individual Scrum Teams. It is used to highlight dependencies and the flow of work
+during the Sprint. The Nexus Sprint Backlog is updated throughout the Sprint as more is learned. It
+should have enough detail that the Nexus can inspect thei...
+--------------------------------------------------
+
+Block 85:
+Scrum Artifacts and Deliverables: Nexus Sprint Backlog, Integrated Increment
+--------------------------------------------------
+
+Block 86:
+Scrum Events and Ceremonies: Nexus Sprint Planning event, Nexus Sprint Review
+--------------------------------------------------
+
+Block 87:
+Objectives and Goals: Achieve the Product Goal by completing integrated work towards the Definition of Done
+--------------------------------------------------
+
+Block 88:
+Results: Deliver valuable and usable functionality to stakeholders
+--------------------------------------------------
+
+Block 89:
+Key Concepts and Definitions: Definition of Done, Integrated Increment, Nexus Sprint Goal, Nexus Sprint Review, Nexus Sprint Planning event
+--------------------------------------------------
+
+Block 90:
+Methodology and Framework: Individual Scrum Teams self-manage to achieve this state
+--------------------------------------------------
+
+Block 91:
+Processes and Workflows: Scrum Teams within the Nexus must define and adhere to the Definition of Done
+--------------------------------------------------
+
+Block 92:
+Objectives and Goals: Define and adhere to a common Definition of Done for the Integrated Increment
+--------------------------------------------------
+
+Block 93:
+Results: A common Definition of Done for the Integrated Increment
+--------------------------------------------------
+
+Block 94:
+Key Concepts and Definitions: Definition of Done, Integrated Increment, Scrum Teams, Nexus
+--------------------------------------------------
+
+Block 95:
+Document Title: Nexus and Scaled Professional Scrum
+--------------------------------------------------
+
+Block 96:
+Methodology and Framework: Immutable accountabilities in Nexus
+--------------------------------------------------
+
+Block 97:
+Roles and Responsibilities: Ken Schwaber, David Dame, Richard Hundhausen, Patricia Kong, Rob Maher, Steve Porter, Christina Schwaber, Gunther Verheyen
+--------------------------------------------------
+
+Block 98:
+Background: Decisions made based on the state of artifacts are only as effective as the level of artifact transparency. Incomplete or partial information will lead to incorrect or flawed decisions.
+--------------------------------------------------
+
+Block 99:
+Key Concepts and Definitions: Nexus, Scaled Professional Scrum
+--------------------------------------------------
+

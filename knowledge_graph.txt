@@ -1,7 +1,0 @@
-# Knowledge Graph - 5 triples from 978 characters
-
- 1. (Actually To) --[creates]--> (Build)
- 2. (Going To) --[uses]--> (Use)
- 3. (System And) --[uses]--> (Use)
- 4. (Somebody) --[has]--> (Ctually To Build The System)
- 5. (So Pat) --[helps]--> (Turn These Into Concrete User S)

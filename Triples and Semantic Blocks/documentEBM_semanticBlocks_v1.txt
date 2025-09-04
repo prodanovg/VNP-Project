@@ -1,0 +1,429 @@
+# Semantic Blocks Generated
+# Total: 102 blocks
+
+Block 1:
+Methodology and Framework: Intentional experimentation and evidence (measures)
+--------------------------------------------------
+
+Block 2:
+Introduction: Evidence-Based Management (EBM) is an empirical approach that helps organizations to continuously improve customer outcomes, organizational capabilities, and business results under conditions of uncertainty.
+--------------------------------------------------
+
+Block 3:
+Objectives and Goals: Improve customer outcomes, organizational capabilities, and business results
+--------------------------------------------------
+
+Block 4:
+Key Concepts and Definitions: Evidence-Based Management, empirical approach, intentional experimentation, evidence (measures)
+--------------------------------------------------
+
+Block 5:
+Content Block: By measuring current conditions, setting performance goals, forming small experiments for 
+improvement that can be run quickly, measuring the effect of the experiment, and inspecting 
+and adapting goals and next steps, EBM helps organizations to take into account the best 
+available evidence to help them make decisions on ways to improve. This Guide defines EBM, its concepts, and its application. 3 
+EBM Helps Organizations Seek toward Their Goals 
+in a Complex World Using Empiricism 
+ 
+Complex p...
+--------------------------------------------------
+
+Block 6:
+Document Title: Understanding Scrum Roles and Responsibilities
+--------------------------------------------------
+
+Block 7:
+Scrum Roles and Responsibilities: Product Owner, Scrum Master, Development Team
+--------------------------------------------------
+
+Block 8:
+Scrum Events and Ceremonies: Sprint planning, Daily Scrum, Sprint Review, Sprint Retrospective
+--------------------------------------------------
+
+Block 9:
+Scrum Values and Principles: Commitment, Courage, Focus, Openness, Respect
+--------------------------------------------------
+
+Block 10:
+Processes and Workflows: Running experiments, forming hypotheses
+--------------------------------------------------
+
+Block 11:
+Roles and Responsibilities: Team or group of teams
+--------------------------------------------------
+
+Block 12:
+Objectives and Goals: Progress toward Strategic Goal
+--------------------------------------------------
+
+Block 13:
+Results: Achieving Intermediate Goals
+--------------------------------------------------
+
+Block 14:
+Key Concepts and Definitions: Scrum software development process
+--------------------------------------------------
+
+Block 15:
+Processes and Workflows: Experimenting, Inspecting, Adapting
+--------------------------------------------------
+
+Block 16:
+Key Concepts and Definitions: Strategic Goal, Measures, Experiments, Organizational Alignment
+--------------------------------------------------
+
+Block 17:
+Scrum Artifacts and Deliverables: Product Backlog, Sprint Backlog, Increment
+--------------------------------------------------
+
+Block 18:
+Methodology and Framework: This article analyzes a document about Scrum software development process and extracts information into structured categories.
+--------------------------------------------------
+
+Block 19:
+Introduction: In the context of Scrum software development process, a Strategic Goal is focused on achieving a highly desirable but unrealized outcome for a specific group of people.
+--------------------------------------------------
+
+Block 20:
+Objectives and Goals: The objective of this article is to extract information into structured categories that will help build a knowledge graph about Scrum roles, responsibilities, artifacts, events, and their relationships.
+--------------------------------------------------
+
+Block 21:
+Conclusions: This article provides a structured understanding of Scrum roles, responsibilities, artifacts, events, and their relationships.
+--------------------------------------------------
+
+Block 22:
+Key Concepts and Definitions: Strategic Goal, Intermediate Goal, Tactical Goals
+--------------------------------------------------
+
+Block 23:
+Document Title: Understanding What Is Valuable
+--------------------------------------------------
+
+Block 24:
+Key Concepts and Definitions: Unrealized Value, Satisfaction Gap, Beneficiary's Desired Outcome, Current Experience
+--------------------------------------------------
+
+Block 25:
+Document Title: Measuring Outcomes in Scrum
+--------------------------------------------------
+
+Block 26:
+Methodology and Framework: Scrum software development process
+--------------------------------------------------
+
+Block 27:
+Objectives and Goals: Deliver valuable outcomes to customers, Reach organizational goals
+--------------------------------------------------
+
+Block 28:
+Key Concepts and Definitions: Outcome-based measurement, Value delivery, Customer experience
+--------------------------------------------------
+
+Block 29:
+Document Title: EBM Focuses on Four Key Value Areas
+--------------------------------------------------
+
+Block 30:
+Scrum Values and Principles: Unrealized Value, Current Value, Time-to-Market, Ability-to-Innovate
+--------------------------------------------------
+
+Block 31:
+Key Concepts and Definitions: Key Value Areas (KVAs)
+--------------------------------------------------
+
+Block 32:
+Content Block: Delivering business value (Current Value) is important, but organizations must 
+also show that they can respond to change (Time-to-Market) while being able to sustain 
+innovation over time (Ability-to-Innovate). And they must be able to continually make progress 
+toward their long-term goals (Unrealized Value) or they risk succumbing to stagnation and 
+complacency. Example Key Value Measures (KVMs) for each KVA are described in the Appendix. Current Value (CV) 
+The value that the product deliver...
+--------------------------------------------------
+
+Block 33:
+Document Title: Understanding Investor and Stakeholder Happiness through Customer Value
+--------------------------------------------------
+
+Block 34:
+Processes and Workflows: Prioritization, Estimation, Development, Testing, Deployment
+--------------------------------------------------
+
+Block 35:
+Roles and Responsibilities: Product Owner: Ensures customer needs are met, Scrum Master: Facilitates Scrum events and processes, Development Team: Develops and delivers working software.
+--------------------------------------------------
+
+Block 36:
+Introduction: In the context of Scrum software development process, understanding investor and stakeholder happiness is crucial for delivering value.
+--------------------------------------------------
+
+Block 37:
+Objectives and Goals: To measure customer satisfaction and identify areas for improvement to increase profit and retain customers.
+--------------------------------------------------
+
+Block 38:
+Requirements and Constraints: Customer satisfaction, Investor happiness, Stakeholder satisfaction
+--------------------------------------------------
+
+Block 39:
+Results: Improved customer satisfaction, Increased investor happiness, Enhanced stakeholder satisfaction
+--------------------------------------------------
+
+Block 40:
+Key Concepts and Definitions: Customer Value (CV), Investor Happiness, Stakeholder Satisfaction
+--------------------------------------------------
+
+Block 41:
+Content Block: Engaged employees that know how to maintain, 
+sustain and enhance the product are one of the most significant assets of an 
+organization, and happy employees are more engaged and productive. Unrealized Value (UV) 
+The potential future value that could be realized if the organization met the 
+needs of all potential customers or users 
+Looking at Unrealized Value helps an organization to maximize the value that it realizes from a 
+product or service over time. When customers, users, or clients exp...
+--------------------------------------------------
+
+Block 42:
+Document Title: Capturing Unrealized Value and Creating Strategic Goals
+--------------------------------------------------
+
+Block 43:
+Objectives and Goals: Decrease UV by increasing CV
+--------------------------------------------------
+
+Block 44:
+Key Concepts and Definitions: CV (Current Value), UV (Unrealized Value)
+--------------------------------------------------
+
+Block 45:
+Examples and Use Cases: Product with low CV but high UV, Product with high CV and low UV
+--------------------------------------------------
+
+Block 46:
+Document Title: Time-to-Market (T2M) in Scrum
+--------------------------------------------------
+
+Block 47:
+Methodology and Framework: Improving T2M helps improve the frequency at which an organization can potentially change CV.
+--------------------------------------------------
+
+Block 48:
+Processes and Workflows: Reducing the number of features in a product release can dramatically improve T2M; the smallest release possible is one that delivers at least some incremental improvement in value to some subset of the customers/users of the product.
+--------------------------------------------------
+
+Block 49:
+Roles and Responsibilities: Product Owner: Define and prioritize Product Backlog items, Scrum Master: Facilitate Scrum events and ensure Scrum framework is followed, Development Team: Develop and deliver working software in each Sprint.
+--------------------------------------------------
+
+Block 50:
+Introduction: The organization’s ability to quickly deliver new capabilities, services, or products is crucial for sustainable value delivery.
+--------------------------------------------------
+
+Block 51:
+Objectives and Goals: Minimize the amount of time it takes for the organization to deliver value.
+--------------------------------------------------
+
+Block 52:
+Conclusions: Improving T2M requires active management of the Scrum framework and its components.
+--------------------------------------------------
+
+Block 53:
+Key Concepts and Definitions: Learning from experiments and information, adapting based on information, testing new ideas with customers
+--------------------------------------------------
+
+Block 54:
+Document Title: Ability to Innovate (A2I) and its Importance
+--------------------------------------------------
+
+Block 55:
+Introduction: The goal of looking at the A2I is to maximize the organization’s ability to deliver new capabilities and innovative solutions.
+--------------------------------------------------
+
+Block 56:
+Background: Many organizations focus on removing non-value-added activities from the product development and delivery process to improve their T2M.
+--------------------------------------------------
+
+Block 57:
+Objectives and Goals: Continually re-evaluate their A2I by asking: 1. What prevents the organization from delivering new value? 2. What prevents customers or users from benefiting from that innovation?
+--------------------------------------------------
+
+Block 58:
+Results: Improving A2I helps an organization become more effective in ensuring that the work that it does improves the value that its products or services deliver to customers or users.
+--------------------------------------------------
+
+Block 59:
+Key Concepts and Definitions: Ability to Innovate (A2I)
+--------------------------------------------------
+
+Block 60:
+Terminology and Definitions: The effectiveness of an organization to deliver new capabilities that might better meet customer needs.
+--------------------------------------------------
+
+Block 61:
+Document Title: Understanding Current State for Strategic Goal
+--------------------------------------------------
+
+Block 62:
+Roles and Responsibilities: Product Owner: Define Product Backlog, Prioritize Features; Scrum Master: Facilitate Scrum Events, Remove Impediments; Development Team: Develop and Deliver Working Software.
+--------------------------------------------------
+
+Block 63:
+Introduction: The first step in the journey toward a Strategic Goal is understanding your Current State.
+--------------------------------------------------
+
+Block 64:
+Objectives and Goals: To understand the current state of an organization and identify areas for improvement.
+--------------------------------------------------
+
+Block 65:
+Key Concepts and Definitions: Current State, Strategic Goal, Product Owner, Scrum Master, Development Team, Impediments, Product Backlog, Sprint Backlog, Increment
+--------------------------------------------------
+
+Block 66:
+Document Title: Understanding Unrealized Value and Measuring Current Value
+--------------------------------------------------
+
+Block 67:
+Methodology and Framework: Experiment Loop, Hypothesis Formation, Experiment Running
+--------------------------------------------------
+
+Block 68:
+Objectives and Goals: Achieve Strategic Goal related to UV by improving CV, A2I, and T2M
+--------------------------------------------------
+
+Block 69:
+Key Concepts and Definitions: Unrealized Value (UV), Current Value (CV), Effectiveness (A2I), Responsiveness (T2M)
+--------------------------------------------------
+
+Block 70:
+Document Title: Improving Results through Experimentation and Adaptation
+--------------------------------------------------
+
+Block 71:
+Methodology and Framework: Inspecting results, Adapting goals or approach
+--------------------------------------------------
+
+Block 72:
+Processes and Workflows: Change management, Goal adaptation, Experimentation
+--------------------------------------------------
+
+Block 73:
+Roles and Responsibilities: Scrum team members, Product owner, Stakeholders
+--------------------------------------------------
+
+Block 74:
+Objectives and Goals: Improve results, Gather data to support or refute hypothesis
+--------------------------------------------------
+
+Block 75:
+Results: Improved results, Adapted goals or approach
+--------------------------------------------------
+
+Block 76:
+Key Concepts and Definitions: Experimentation, Adaptation, Scrum Process
+--------------------------------------------------
+
+Block 77:
+Key Concepts and Definitions: Hypotheses, Experiments, Features, and Requirements
+--------------------------------------------------
+
+Block 78:
+Document Title: Evidence-Based Management and Scrum
+--------------------------------------------------
+
+Block 79:
+Methodology and Framework: EBM adds explicitness and transparency to the organizational improvement process by making hypotheses, measuring results, and adapting goals based on those results.
+--------------------------------------------------
+
+Block 80:
+Introduction: Evidence-Based Management (EBM) is an approach to organizational improvement that combines empirical evidence with explicit hypotheses, measurement, inspection, and adaptation.
+--------------------------------------------------
+
+Block 81:
+Objectives and Goals: To make hypotheses explicit and design experiments that test the value of features and requirements.
+--------------------------------------------------
+
+Block 82:
+Key Concepts and Definitions: hypotheses, experiments, empirical evidence, explicit assumptions, critical assumptions, validation, value, features, requirements, Scrum software development process
+--------------------------------------------------
+
+Block 83:
+Scrum Roles and Responsibilities: Scrum.org, Professional Scrum Trainer Community, Ken Schwaber, Christina Schwaber
+--------------------------------------------------
+
+Block 84:
+Key Concepts and Definitions: Adaptability, Evidence-Based Management, Scrum.org, Professional Scrum Trainer Community, Ken Schwaber, Christina Schwaber
+--------------------------------------------------
+
+Block 85:
+Document Title: Customer Satisfaction Metrics and Scrum Process
+--------------------------------------------------
+
+Block 86:
+Objectives and Goals: Measure customer engagement and happiness with the product
+--------------------------------------------------
+
+Block 87:
+Key Concepts and Definitions: Sentiment Analysis, Customer Usage Index, Unrealized Value (UV), KVM, Market Share, Customer or User Satisfaction Gap, Desired Customer Experience or satisfaction, Time-to-Market (T2M)
+--------------------------------------------------
+
+Block 88:
+Key Concepts and Definitions: release frequency, release stabilization period, mean time to repair, customer cycle time
+--------------------------------------------------
+
+Block 89:
+Document Title: Lead Time and its Impact on Customer Satisfaction
+--------------------------------------------------
+
+Block 90:
+Objectives and Goals: To understand the importance of Lead Time in Scrum software development process
+--------------------------------------------------
+
+Block 91:
+Key Concepts and Definitions: Lead Time, Deployment Frequency, Time to Restore Service, Time-to-Learn
+--------------------------------------------------
+
+Block 92:
+Document Title: Time to Remove Impediments and Time to Pivot
+--------------------------------------------------
+
+Block 93:
+Processes and Workflows: Identify impediments, track time to remove, receive feedback, respond to feedback
+--------------------------------------------------
+
+Block 94:
+Introduction: In a Scrum software development process, time to remove impediments and time to pivot are crucial metrics that contribute to lead time and employee satisfaction.
+--------------------------------------------------
+
+Block 95:
+Objectives and Goals: To measure the average amount of time from when an impediment is raised until it is resolved, and to calculate the elapsed time between receiving feedback or new information and responding to that feedback.
+--------------------------------------------------
+
+Block 96:
+Results: Improved lead time, increased employee satisfaction, enhanced business agility
+--------------------------------------------------
+
+Block 97:
+Key Concepts and Definitions: Impediment, Time to Remove, Time to Pivot, Lead Time, Employee Satisfaction
+--------------------------------------------------
+
+Block 98:
+Roles and Responsibilities: Product Owner: define product backlog, prioritize features; Development Team: develop and deliver working software; Scrum Master: facilitate Scrum process, remove impediments
+--------------------------------------------------
+
+Block 99:
+Objectives and Goals: Deliver working software in short iterations
+--------------------------------------------------
+
+Block 100:
+Methodology and Framework: Acting as an experienced Scrum expert, analyzing a document about Scrum software development process
+--------------------------------------------------
+
+Block 101:
+Roles and Responsibilities: Product Owner: defining product backlog, prioritizing features; Scrum Master: facilitating Scrum ceremonies, removing impediments; Development Team: developing and testing the product
+--------------------------------------------------
+
+Block 102:
+Objectives and Goals: To extract information into structured categories for a knowledge graph
+--------------------------------------------------
+
