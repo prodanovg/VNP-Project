@@ -1,0 +1,327 @@
+# Semantic Blocks Generated
+# Total: 81 blocks
+
+Block 1:
+Document Title: Agile Software Development from the Perspective of the Product Owner
+--------------------------------------------------
+
+Block 2:
+Processes and Workflows: User story creation, System development
+--------------------------------------------------
+
+Block 3:
+Introduction: The Product Owner has a product vision that they are passionate about. They know why the product is being built, what problem it will solve, and for whom.
+--------------------------------------------------
+
+Block 4:
+Objectives and Goals: To turn user stories into concrete requirements, To build a system that meets the needs of stakeholders
+--------------------------------------------------
+
+Block 5:
+Requirements and Constraints: User stories, Concrete requirements
+--------------------------------------------------
+
+Block 6:
+Key Concepts and Definitions: User stories, Stakeholders, Product Vision
+--------------------------------------------------
+
+Block 7:
+Document Title: Agile Team Capacity and Release Planning
+--------------------------------------------------
+
+Block 8:
+Scrum Roles and Responsibilities: Product Owner, Scrum Master, Development Team
+--------------------------------------------------
+
+Block 9:
+Methodology and Framework: Counting number of stories released per week to measure capacity
+--------------------------------------------------
+
+Block 10:
+Processes and Workflows: Release 4-6 stories per week, automated testing and continuous integration
+--------------------------------------------------
+
+Block 11:
+Roles and Responsibilities: Development Team: write automated acceptance tests and unit tests
+--------------------------------------------------
+
+Block 12:
+Introduction: In Scrum software development process, an agile team releases early and often.
+--------------------------------------------------
+
+Block 13:
+Objectives and Goals: To maintain pace and avoid manual regression testing, the team invests in automated testing and continuous integration.
+--------------------------------------------------
+
+Block 14:
+Key Concepts and Definitions: Story points, stories per week, automated acceptance tests, unit tests
+--------------------------------------------------
+
+Block 15:
+Document Title: The Dangers of Overcommitting in Scrum
+--------------------------------------------------
+
+Block 16:
+Scrum Values and Principles: Commitment, Focus, Openness, Respect, Courage
+--------------------------------------------------
+
+Block 17:
+Methodology and Framework: Scrum framework emphasizes iterative development and continuous improvement. However, when teams take on too much work, they risk overloading themselves.
+--------------------------------------------------
+
+Block 18:
+Processes and Workflows: Prioritization, Sprint Planning, Daily Scrum, Sprint Review, Retrospective
+--------------------------------------------------
+
+Block 19:
+Workflow and Procedures: Prioritize work items, Plan sprints, Conduct daily scrums, Review and reflect on progress
+--------------------------------------------------
+
+Block 20:
+Introduction: In a Scrum environment, overcommitting can lead to team overload, demotivation, and decreased output quality.
+--------------------------------------------------
+
+Block 21:
+Results: Improved team velocity, Enhanced quality of deliverables, Increased customer satisfaction
+--------------------------------------------------
+
+Block 22:
+Key Concepts and Definitions: Overcommitting, Team Load, Demotivation, Output Quality
+--------------------------------------------------
+
+Block 23:
+Document Title: Avoiding Overcommitment in Scrum and XP
+--------------------------------------------------
+
+Block 24:
+Methodology and Framework: Scrum and XP way of avoiding overcommitment
+--------------------------------------------------
+
+Block 25:
+Processes and Workflows: Team decides on features to build based on past performance
+--------------------------------------------------
+
+Block 26:
+Roles and Responsibilities: Product Owner figures out which stories to deliver next
+--------------------------------------------------
+
+Block 27:
+Objectives and Goals: Avoid overcommitting, focus on delivering value
+--------------------------------------------------
+
+Block 28:
+Results: Deliver value to customers, avoid overcommitment
+--------------------------------------------------
+
+Block 29:
+Content Block: The Kanban way is to limit Work In Progress or limit WIP Suppose the team decides that 5 is a optimum number of stories to be worked out simultaneously They've learned that is just enough to keep everybody busy without causing an overload so they decided that 5 is their wip limit whenever they finish one story they will accept one user story thereby making sure that they never break the limit of five ongoing stories both of these approach work fine in the sense that the team will have just enoug...
+--------------------------------------------------
+
+Block 30:
+Document Title: Roles and Responsibilities in Scrum
+--------------------------------------------------
+
+Block 31:
+Roles and Responsibilities: Product Owner: Responsible for prioritizing the backlog, ensuring that the product meets customer needs, and making decisions about what to build and when. Scrum Master: Facilitates the Scrum process, ensures that the team is following the framework, and removes impediments. Development Team: Responsible for delivering working software in each sprint.
+--------------------------------------------------
+
+Block 32:
+Introduction: In the Scrum framework, there are three main roles: Product Owner, Scrum Master, and Development Team.
+--------------------------------------------------
+
+Block 33:
+Objectives and Goals: The objectives of each role are as follows:
+--------------------------------------------------
+
+Block 34:
+Document Title: Correlation between Story Value and Size in Scrum Software Development Process
+--------------------------------------------------
+
+Block 35:
+Scrum Values and Principles: Value-based prioritization, Size-based prioritization
+--------------------------------------------------
+
+Block 36:
+Methodology and Framework: This analysis focuses on extracting information from a document about Scrum software development process, specifically roles, responsibilities, artifacts, events, and their relationships.
+--------------------------------------------------
+
+Block 37:
+Processes and Workflows: Prioritization of stories based on value and size
+--------------------------------------------------
+
+Block 38:
+Introduction: In the context of Scrum software development process, it is essential to understand the correlation between story value and size. This article aims to extract information into structured categories that will help build a knowledge graph.
+--------------------------------------------------
+
+Block 39:
+Objectives and Goals: To understand the correlation between story value and size in Scrum software development process and to extract relevant information into structured categories for building a knowledge graph.
+--------------------------------------------------
+
+Block 40:
+Results: A clear understanding of the correlation between story value and size in Scrum software development process and a structured knowledge graph capturing relevant information.
+--------------------------------------------------
+
+Block 41:
+Key Concepts and Definitions: Story Value, Story Size, Prioritization in Scrum
+--------------------------------------------------
+
+Block 42:
+Document Title: Extracting Scrum Knowledge Graph
+--------------------------------------------------
+
+Block 43:
+Scrum Artifacts and Deliverables: Product Backlog, Sprint Backlog, Increment
+--------------------------------------------------
+
+Block 44:
+Scrum Events and Ceremonies: Sprint Planning, Daily Scrum, Sprint Review, Sprint Retrospective
+--------------------------------------------------
+
+Block 45:
+Methodology and Framework: Analyzing a document about Scrum and extracting information into structured categories.
+--------------------------------------------------
+
+Block 46:
+Roles and Responsibilities: Product Owner: Communicates with stakeholders to understand their values and priorities. Scrum Master: Facilitates the Scrum process and ensures its adoption by the team. Development Team: Responsible for delivering working software in each sprint.
+--------------------------------------------------
+
+Block 47:
+Introduction: This article aims to extract knowledge from the Scrum software development process.
+--------------------------------------------------
+
+Block 48:
+Objectives and Goals: To build a knowledge graph that captures relationships between roles, responsibilities, artifacts, and events in Scrum.
+--------------------------------------------------
+
+Block 49:
+Key Concepts and Definitions: Roles, Responsibilities, Artifacts, Events
+--------------------------------------------------
+
+Block 50:
+Processes and Workflows: The Scrum process involves several events, including Sprint Planning, Daily Scrum, Sprint Review, and Sprint Retrospective. The product backlog is a prioritized list of features or requirements for the product.
+--------------------------------------------------
+
+Block 51:
+Key Concepts and Definitions: Scrum roles include Product Owner, Development Team, and Scrum Master. The Product Owner is responsible for prioritizing the product backlog, while the Development Team focuses on building the right thing. The Scrum Master facilitates the Scrum process and ensures that it is followed.
+--------------------------------------------------
+
+Block 52:
+Processes and Workflows: Product Owner prioritizes team workload, Stakeholders ask about progress and expectations
+--------------------------------------------------
+
+Block 53:
+Roles and Responsibilities: Product Owner: Manage Team Backlog, Set Realistic Expectations; Stakeholder: Ask about Progress and Expectations
+--------------------------------------------------
+
+Block 54:
+Objectives and Goals: Manage Team Workload, Set Realistic Expectations
+--------------------------------------------------
+
+Block 55:
+Key Concepts and Definitions: Team Backlog, Product Owner, Stakeholder, Expectations Management
+--------------------------------------------------
+
+Block 56:
+Document Title: Understanding Scrum Velocity and Burn Up Charts
+--------------------------------------------------
+
+Block 57:
+Processes and Workflows: Velocity measurement, Burn up chart creation
+--------------------------------------------------
+
+Block 58:
+Objectives and Goals: To understand the concept of velocity in Scrum and how to use burn up charts for forecasting.
+--------------------------------------------------
+
+Block 59:
+Results: Accurate forecasting, Improved expectations management
+--------------------------------------------------
+
+Block 60:
+Key Concepts and Definitions: Velocity, Burn Up Chart, Output, Outcome, Cone of Uncertainty
+--------------------------------------------------
+
+Block 61:
+Content Block: Suppose the stakeholders ask Pat "when will all of these stuff be done?" "when will we be here?" that's a fix scope / variable time question so Pat uses the two trend lines to answer most likely sometime between April and mid May suppose stakeholder ask Pat "how much will be done by Christmas?" that's a fixed time / variable scope question the trend lines tell us that we'll most likely finished all of these, by christmas some of those and none of those and finally suppose stakeholders say "can w...
+--------------------------------------------------
+
+Block 62:
+Roles and Responsibilities: Product Owner: responsible for creating and maintaining the Product Backlog; Scrum Master: facilitates Scrum processes and removes impediments; Development Team: responsible for delivering working software
+--------------------------------------------------
+
+Block 63:
+Objectives and Goals: To understand the roles and responsibilities in Scrum software development process
+--------------------------------------------------
+
+Block 64:
+Document Title: Agile Product Ownership in a Nutshell
+--------------------------------------------------
+
+Block 65:
+Scrum Roles and Responsibilities: Product Owner(s), Chief Product Owner, Team members
+--------------------------------------------------
+
+Block 66:
+Scrum Artifacts and Deliverables: Backlogs (multiple), Scrum board
+--------------------------------------------------
+
+Block 67:
+Methodology and Framework: Agile Software Development Process using Scrum framework
+--------------------------------------------------
+
+Block 68:
+Processes and Workflows: Capacity management, Stakeholder communication, Product Owner responsibilities, Team synchronization
+--------------------------------------------------
+
+Block 69:
+Roles and Responsibilities: Product Owners: say NO, Backlog grooming, Team synchronization; Chief Product Owner: synchronize Product Owners
+--------------------------------------------------
+
+Block 70:
+Workflow and Procedures: Scrum framework with multiple teams and Product Owners
+--------------------------------------------------
+
+Block 71:
+Objectives and Goals: Maintain sustainable pace, Forecasting, Stakeholder satisfaction
+--------------------------------------------------
+
+Block 72:
+Results: Improved forecasting, Stakeholder satisfaction, Sustainable pace
+--------------------------------------------------
+
+Block 73:
+Key Concepts and Definitions: Velocity, Capacity Management, Stakeholder Communication, Backlog Grooming, Short Feedback Loop
+--------------------------------------------------
+
+Block 74:
+Document Title: Disciplined Agile Overview
+--------------------------------------------------
+
+Block 75:
+Methodology and Framework: Based on the principles of Agile and Lean, DA provides a flexible approach to software development that can be applied to various project sizes and team structures.
+--------------------------------------------------
+
+Block 76:
+Processes and Workflows: DA combines elements from Scrum, Kanban, and other agile frameworks to create a hybrid approach that suits different organizational needs.
+--------------------------------------------------
+
+Block 77:
+Roles and Responsibilities: Roles in DA include Product Owner, Development Team, Scrum Master, and Stakeholders.
+--------------------------------------------------
+
+Block 78:
+Workflow and Procedures: DA workflow involves iterative development, continuous improvement, and regular review of progress.
+--------------------------------------------------
+
+Block 79:
+Introduction: Disciplined Agile (DA) is an Enterprise agile framework developed by Scott Ambler and Mark Lines.
+--------------------------------------------------
+
+Block 80:
+Key Concepts and Definitions: Agile, Lean, Disciplined Agile Delivery
+--------------------------------------------------
+
+Block 81:
+Content Block: I acquired discipline agile and mark and Scott are now part of discipline an agile brand within PMI I want to start with a definition of discipline agile and I'll just read this discipline agile is a process decision tool kit that provides straightforward guidance to help people teams and organizations to streamline their processes and a context-sensitive manner da provides a solid foundation for business agility by showing how the various activities such as solution delivery IT operations Enter...
+--------------------------------------------------
+
