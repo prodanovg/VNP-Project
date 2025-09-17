@@ -1,0 +1,554 @@
+# Semantic Blocks Generated
+# Total: 136 blocks
+
+Block 1:
+Document Title: Scrum Software Development Process
+--------------------------------------------------
+
+Block 2:
+Methodology and Framework: Scrum framework, Purposefully incomplete, Collective intelligence, Rules guide relationships and interactions
+--------------------------------------------------
+
+Block 3:
+Processes and Workflows: Product Backlog, Sprint, Increment of value, Inspect and adjust
+--------------------------------------------------
+
+Block 4:
+Roles and Responsibilities: Scrum Master: foster environment, Product Owner: order work, Scrum Team: turn work into increment
+--------------------------------------------------
+
+Block 5:
+Workflow and Procedures: Repeat: inspect and adjust for next Sprint
+--------------------------------------------------
+
+Block 6:
+Introduction: Scrum is a lightweight framework that helps people, teams and organizations generate value through adaptive solutions for complex problems.
+--------------------------------------------------
+
+Block 7:
+Objectives and Goals: Generate value, Achieve goals, Create value
+--------------------------------------------------
+
+Block 8:
+Results: Increment of value, Achieved goals
+--------------------------------------------------
+
+Block 9:
+Key Concepts and Definitions: Complex problem-solving, Adaptive solutions, Scrum Master, Product Owner, Scrum Team, Increment of value, Sprint, Inspect and adjust.
+--------------------------------------------------
+
+Block 10:
+Scrum Roles and Responsibilities: Groups of people who collectively have all the skills and expertise to do the work and share or acquire such skills as needed.
+--------------------------------------------------
+
+Block 11:
+Scrum Events and Ceremonies: Four formal events for inspection and adaptation: Sprint
+--------------------------------------------------
+
+Block 12:
+Scrum Values and Principles: Transparency, Inspection, Adaptation
+--------------------------------------------------
+
+Block 13:
+Methodology and Framework: Scrum employs an iterative, incremental approach to optimize predictability and to control risk.
+--------------------------------------------------
+
+Block 14:
+Introduction: Scrum wraps around existing practices or renders them unnecessary. Scrum makes visible the relative efficacy of current management, environment, and work techniques, so that improvements can be made.
+--------------------------------------------------
+
+Block 15:
+Key Concepts and Definitions: Empiricism asserts that knowledge comes from experience and making decisions based on what is observed. Lean thinking reduces waste and focuses on the essentials.
+--------------------------------------------------
+
+Block 16:
+Document Title: Transparency in Scrum
+--------------------------------------------------
+
+Block 17:
+Scrum Roles and Responsibilities: Product Owner, Development Team, Scrum Master
+--------------------------------------------------
+
+Block 18:
+Scrum Artifacts and Deliverables: Product Backlog, Sprint Backlog, Increment
+--------------------------------------------------
+
+Block 19:
+Scrum Events and Ceremonies: Sprint Planning, Daily Scrum, Sprint Review, Sprint Retrospective, Backlog Refinement
+--------------------------------------------------
+
+Block 20:
+Methodology and Framework: Scrum provides cadence through its five events to facilitate inspection and adaptation.
+--------------------------------------------------
+
+Block 21:
+Processes and Workflows: Inspection without transparency is misleading and wasteful. Adaptation without inspection is pointless.
+--------------------------------------------------
+
+Block 22:
+Roles and Responsibilities: Scrum teams are responsible for maintaining transparency through regular inspection and adaptation.
+--------------------------------------------------
+
+Block 23:
+Introduction: In Scrum, transparency enables inspection and adaptation.
+--------------------------------------------------
+
+Block 24:
+Objectives and Goals: To detect potentially undesirable variances or problems and adjust the process accordingly.
+--------------------------------------------------
+
+Block 25:
+Results: Improved visibility, detection of problems, and adjustment of the process to meet goals.
+--------------------------------------------------
+
+Block 26:
+Key Concepts and Definitions: Emergent process, work visibility, artifacts, events, inspection, adaptation
+--------------------------------------------------
+
+Block 27:
+Document Title: Understanding Scrum Values and Their Impact on Team Adaptation
+--------------------------------------------------
+
+Block 28:
+Scrum Values and Principles: Commitment, Focus, Openness, Respect, Courage
+--------------------------------------------------
+
+Block 29:
+Roles and Responsibilities: The Scrum Team is responsible for adapting to new information through inspection and commitment to achieving goals.
+--------------------------------------------------
+
+Block 30:
+Introduction: The Scrum software development process emphasizes the importance of five core values: Commitment, Focus, Openness, Respect, and Courage.
+--------------------------------------------------
+
+Block 31:
+Objectives and Goals: To understand how Scrum values influence team adaptation and performance.
+--------------------------------------------------
+
+Block 32:
+Results: Successful use of Scrum depends on the team's ability to live by its core values.
+--------------------------------------------------
+
+Block 33:
+Key Concepts and Definitions: Scrum Team, Scrum Values, Commitment, Focus, Openness, Respect, Courage
+--------------------------------------------------
+
+Block 34:
+Document Title: Roles and Responsibilities in Scrum
+--------------------------------------------------
+
+Block 35:
+Scrum Roles and Responsibilities: Scrum Team members: Scrum Master, Product Owner, Developers
+--------------------------------------------------
+
+Block 36:
+Methodology and Framework: Scrum software development process
+--------------------------------------------------
+
+Block 37:
+Processes and Workflows: Internal decision-making within the Scrum Team
+--------------------------------------------------
+
+Block 38:
+Roles and Responsibilities: Roles: Scrum Master, Product Owner, Developers; Responsibilities: Scrum Master - facilitate Scrum events, Product Owner - define and prioritize Product Backlog, Developers - create value through Sprint work
+--------------------------------------------------
+
+Block 39:
+Objectives and Goals: Achieve Product Goal through Scrum Team's efforts
+--------------------------------------------------
+
+Block 40:
+Key Concepts and Definitions: Scrum Team, cross-functional team, self-managing team
+--------------------------------------------------
+
+Block 41:
+Methodology and Framework: Sprints at a sustainable pace
+--------------------------------------------------
+
+Block 42:
+Processes and Workflows: Stakeholder collaboration, verification, maintenance, operation, experimentation, research and development
+--------------------------------------------------
+
+Block 43:
+Roles and Responsibilities: Scrum Team is responsible for all product-related activities
+--------------------------------------------------
+
+Block 44:
+Objectives and Goals: Creating a valuable, useful Increment every Sprint
+--------------------------------------------------
+
+Block 45:
+Key Concepts and Definitions: Scrum Team, Product Goal, Product Backlog, Product Owner
+--------------------------------------------------
+
+Block 46:
+Document Title: Empiricism and Scrum for Complex Problems
+--------------------------------------------------
+
+Block 47:
+Methodology and Framework: Series of practical targets to achieve Strategic Goal
+--------------------------------------------------
+
+Block 48:
+Processes and Workflows: Inspecting results and adapting next actions
+--------------------------------------------------
+
+Block 49:
+Workflow and Procedures: Series of small steps to achieve Strategic Goal
+--------------------------------------------------
+
+Block 50:
+Introduction: Complex problems defy easy solutions, but instead require organizations seek toward their goals in a series of small steps, inspecting the results of each step, and adapting their next actions based on feedback.
+--------------------------------------------------
+
+Block 51:
+Objectives and Goals: Achieve Strategic Goal through empiricism
+--------------------------------------------------
+
+Block 52:
+Results: Achievement of Intermediate Goals indicates progress towards Strategic Goal
+--------------------------------------------------
+
+Block 53:
+Key Concepts and Definitions: Strategic Goal, Intermediate Goals, Empiricism
+--------------------------------------------------
+
+Block 54:
+Document Title: Understanding Scrum Roles and Responsibilities
+--------------------------------------------------
+
+Block 55:
+Methodology and Framework: Scrum teams run experiments to advance toward Intermediate Goals by forming hypotheses and gathering results.
+--------------------------------------------------
+
+Block 56:
+Processes and Workflows: Experiments involve forming hypotheses that are intended to advance the organization toward its current Intermediate Goal. Results from these experiments help teams adjust their goals and move forward.
+--------------------------------------------------
+
+Block 57:
+Roles and Responsibilities: Scrum Master: Facilitates Scrum process, Product Owner: Prioritizes product backlog, Development Team: Develops software according to Sprint Backlog
+--------------------------------------------------
+
+Block 58:
+Workflow and Procedures: Experiments -> Hypotheses -> Evidence -> Adjusted Goals -> Progress toward Strategic Goal
+--------------------------------------------------
+
+Block 59:
+Introduction: The Scrum software development process involves several roles, responsibilities, artifacts, and events that work together to achieve the Strategic Goal.
+--------------------------------------------------
+
+Block 60:
+Objectives and Goals: To progress toward the Strategic Goal, organizations must evaluate their goals and determine next steps based on gathered evidence.
+--------------------------------------------------
+
+Block 61:
+Results: Improved understanding of Strategic Goal, Intermediate Goals, and Current State. Adjusted goals based on experiment results.
+--------------------------------------------------
+
+Block 62:
+Key Concepts and Definitions: Intermediate Goals, Immediate Tactical Goals, Starting State, Current State, Strategic Goal, experiments, hypotheses, evidence, goals
+--------------------------------------------------
+
+Block 63:
+When setting goals, organizations must define specific measures that will indicate that the goal
+is achieved. Goals, measures, and experiments should be made transparent in order to
+encourage organizational alignment. Consider the case of the response to an infectious disease:
+--------------------------------------------------
+
+Block 64:
+Methodology and Framework: EBM (Evidence-Based Medicine)
+--------------------------------------------------
+
+Block 65:
+Processes and Workflows: Isolating symptoms, evaluating a therapy, sequencing the DNA of a virus or bacterium
+--------------------------------------------------
+
+Block 66:
+Objectives and Goals: Achieving a highly desirable but unrealized outcome for a specific group of people
+--------------------------------------------------
+
+Block 67:
+Results: Improved happiness, safety, security, or well-being of the recipients of some product or service
+--------------------------------------------------
+
+Block 68:
+Key Concepts and Definitions: Intermediate Goal, Strategic Goal, Unrealized Value, Satisfaction Gap
+--------------------------------------------------
+
+Block 69:
+Document Title: Understanding What Is Valuable
+--------------------------------------------------
+
+Block 70:
+Introduction: Organizations measure many different kinds of things.
+--------------------------------------------------
+
+Block 71:
+Key Concepts and Definitions: Activities, Outputs, Outcomes
+--------------------------------------------------
+
+Block 72:
+Methodology and Framework: EBM Focuses on Four Key Value Areas
+--------------------------------------------------
+
+Block 73:
+Introduction: Measuring outcomes is difficult compared to measuring activities and outputs.
+--------------------------------------------------
+
+Block 74:
+Objectives and Goals: Moving toward goals using hypotheses and experiments, and delivering value through perspectives on value and the organization's ability to deliver value.
+--------------------------------------------------
+
+Block 75:
+Key Concepts and Definitions: Delivering valuable outcomes to customers is essential for organizations to reach their goals.
+--------------------------------------------------
+
+Block 76:
+Document Title: Understanding Key Value Areas (KVAs) in Scrum
+--------------------------------------------------
+
+Block 77:
+Introduction: In the context of Scrum software development process, Key Value Areas (KVAs) are four dimensions that help organizations understand their current state and goals.
+--------------------------------------------------
+
+Block 78:
+Key Concepts and Definitions: Key Value Areas (KVAs), Unrealized Value, Current Value, Time-to-Market, Ability-to-Innovate
+--------------------------------------------------
+
+Block 79:
+Introduction: The purpose of looking at CV is to understand the value that an organization delivers to customers and stakeholders at the present time; it considers only what exists right now, not the value that might exist in the future.
+--------------------------------------------------
+
+Block 80:
+Key Concepts and Definitions: Current Value Measures
+--------------------------------------------------
+
+Block 81:
+Processes and Workflows: Daily Scrum meetings, Sprint planning, Sprint review, Retrospective
+--------------------------------------------------
+
+Block 82:
+Objectives and Goals: Deliver value to customers, improve customer satisfaction, recognize employee contributions
+--------------------------------------------------
+
+Block 83:
+Key Concepts and Definitions: Customer happiness, investor happiness, employee attitudes, engaged employees, productivity
+--------------------------------------------------
+
+Block 84:
+Document Title: Maximizing Unrealized Value in Scrum Software Development
+--------------------------------------------------
+
+Block 85:
+Processes and Workflows: Identify untapped opportunities, evaluate worth of effort and risk to pursue UV, make further investments to capture additional UV
+--------------------------------------------------
+
+Block 86:
+Roles and Responsibilities: Product Owner: define product backlog, prioritize items; Scrum Master: facilitate Scrum events, remove impediments; Development Team: develop and deliver working software
+--------------------------------------------------
+
+Block 87:
+Introduction: Unrealized Value (UV) represents the potential future value that could be realized if an organization met the needs of all potential customers or users.
+--------------------------------------------------
+
+Block 88:
+Objectives and Goals: Maximize UV by identifying untapped opportunities and making further investments to capture additional UV
+--------------------------------------------------
+
+Block 89:
+Requirements and Constraints: Analyze document about Scrum software development process, extract information into structured categories for knowledge graph building
+--------------------------------------------------
+
+Block 90:
+Results: Maximized Unrealized Value, increased customer satisfaction, improved product quality
+--------------------------------------------------
+
+Block 91:
+Key Concepts and Definitions: Unrealized Value, Customer Value (CV), present and possible future benefits
+--------------------------------------------------
+
+Block 92:
+Scrum Roles and Responsibilities: Scrum Teams within a Nexus
+--------------------------------------------------
+
+Block 93:
+Processes and Workflows: Cross-Team Refinement of the Product Backlog to eliminate cross-team dependencies.
+--------------------------------------------------
+
+Block 94:
+Roles and Responsibilities: Each Scrum Team is responsible for delivering their portion of the Integrated Increment.
+--------------------------------------------------
+
+Block 95:
+Workflow and Procedures: Cross-Team Refinement, Sprint planning and execution, Delivery of Integrated Increment
+--------------------------------------------------
+
+Block 96:
+Introduction: The Nexus Scrum process is a scaled version of the Scrum framework for large, complex projects.
+--------------------------------------------------
+
+Block 97:
+Objectives and Goals: To deliver a single Integrated Increment and reduce cross-team dependencies within a Nexus.
+--------------------------------------------------
+
+Block 98:
+Results: A single Integrated Increment delivered by multiple Scrum Teams within a Nexus.
+--------------------------------------------------
+
+Block 99:
+Key Concepts and Definitions: Scrum Teams, Integrated Increment, Cross-Team Refinement
+--------------------------------------------------
+
+Block 100:
+Document Title: Cross-Team Refinement of the Product Backlog
+--------------------------------------------------
+
+Block 101:
+Scrum Events and Ceremonies: Nexus Sprint Planning event, Cross-Team Refinement
+--------------------------------------------------
+
+Block 102:
+Methodology and Framework: Ongoing cross-team refinement to optimize forecasting and dependency identification
+--------------------------------------------------
+
+Block 103:
+Processes and Workflows: Cross-Team Refinement, Scrum Team refinement, Nexus Sprint Planning event
+--------------------------------------------------
+
+Block 104:
+Roles and Responsibilities: Scrum Teams forecast which team will deliver which Product Backlog items, identify dependencies across teams
+--------------------------------------------------
+
+Block 105:
+Introduction: The Product Backlog must be decomposed so that dependencies are transparent, identified across teams, and removed or minimized.
+--------------------------------------------------
+
+Block 106:
+Key Concepts and Definitions: Product Backlog decomposition, dependency transparency, cross-team refinement
+--------------------------------------------------
+
+Block 107:
+Document Title: Nexus Sprint Planning
+--------------------------------------------------
+
+Block 108:
+Scrum Artifacts and Deliverables: Sprint Backlog, Nexus Sprint Backlog
+--------------------------------------------------
+
+Block 109:
+Methodology and Framework: Representatives from each Scrum Team and the Product Owner meet to plan the Sprint.
+--------------------------------------------------
+
+Block 110:
+Objectives and Goals: Coordinate the activities of all Scrum Teams within a Nexus for a single Sprint.
+--------------------------------------------------
+
+Block 111:
+Results: Nexus Sprint Goal, Sprint Goals for each Scrum Team, Nexus Sprint Backlog, Sprint Backlogs for each Scrum Team
+--------------------------------------------------
+
+Block 112:
+Key Concepts and Definitions: Nexus Sprint Goal, Sprint Goal, Nexus Sprint Backlog, Sprint Backlog
+--------------------------------------------------
+
+Block 113:
+Scrum Roles and Responsibilities: Appropriate representatives from the Scrum Teams attend the Nexus Daily Scrum
+--------------------------------------------------
+
+Block 114:
+Introduction: The purpose of the Nexus Daily Scrum is to identify any integration issues and inspect progress toward the Nexus Sprint Goal.
+--------------------------------------------------
+
+Block 115:
+Objectives and Goals: Identify integration issues and inspect progress toward the Nexus Sprint Goal.
+--------------------------------------------------
+
+Block 116:
+Scrum Events and Ceremonies: Nexus Daily Scrum, Nexus Sprint Review
+--------------------------------------------------
+
+Block 117:
+Processes and Workflows: Cross-team communication can occur throughout the day for more detailed discussions about adapting or re-planning the rest of the Sprint’s work.
+--------------------------------------------------
+
+Block 118:
+Roles and Responsibilities: Attendees collaborate on what the Nexus should do to address the feedback.
+--------------------------------------------------
+
+Block 119:
+Introduction: The Nexus Sprint Review is held at the end of the Sprint to provide feedback on the done Integrated Increment that the Nexus has built over the Sprint and determine future adaptations.
+--------------------------------------------------
+
+Block 120:
+Background: The Nexus Daily Scrum is not the only time Scrum Teams in the Nexus are allowed to adjust their plan.
+--------------------------------------------------
+
+Block 121:
+Objectives and Goals: Provide feedback on the done Integrated Increment, determine future adaptations
+--------------------------------------------------
+
+Block 122:
+Results: The Product Backlog may be adjusted to reflect these discussions.
+--------------------------------------------------
+
+Block 123:
+Key Concepts and Definitions: Nexus, Scrum Teams, Product Goal
+--------------------------------------------------
+
+Block 124:
+The purpose of the Nexus Sprint Retrospective is to plan ways to increase quality and effectiveness
+across the whole Nexus. The Nexus inspects how the last Sprint went with regards to individuals, teams,
+interactions, processes, tools, and its Definition of Done. In addition to individual team improvements,
+the Scrum Teams’ Sprint Retrospectives complement the Nexus Sprint Retrospective by using bottom-up
+intelligence to focus on issues that affect the Nexus as a whole...
+--------------------------------------------------
+
+Block 125:
+Content Block: Nexus extends Scrum with the following artifacts, and each artifact contains a commitment, as indicated
+below.
+--------------------------------------------------
+
+Block 126:
+Methodology and Framework: The Product Owner is accountable for the Product Backlog, including its content, availability, and ordering. The commitment for the Product Backlog is the Product Goal.
+--------------------------------------------------
+
+Block 127:
+Processes and Workflows: The Scrum process involves three events: Sprint Planning, Daily Scrum, and Sprint Review.
+--------------------------------------------------
+
+Block 128:
+Workflow and Procedures: The workflow in Scrum involves the Product Owner creating and maintaining the Product Backlog, the Scrum Master facilitating Scrum processes, and the Development Team delivering working software.
+--------------------------------------------------
+
+Block 129:
+Introduction: In the Scrum framework, there are three roles that work together to achieve a common goal.
+--------------------------------------------------
+
+Block 130:
+Objectives and Goals: To deliver working software in a sustainable manner, with continuous improvement and iterative progress.
+--------------------------------------------------
+
+Block 131:
+Key Concepts and Definitions: Product Owner, Scrum Master, Development Team
+--------------------------------------------------
+
+Block 132:
+Document Title: Nexus Sprint Goal and Integrated Increment
+--------------------------------------------------
+
+Block 133:
+Processes and Workflows: Scrum Teams keep the Nexus Sprint Goal in mind while working during the Sprint.
+--------------------------------------------------
+
+Block 134:
+Objectives and Goals: Create a Nexus Sprint Goal at the Nexus Sprint Planning event and add it to the Nexus Sprint Backlog.
+--------------------------------------------------
+
+Block 135:
+Results: Demonstrate valuable and useful functionality achieved towards the Nexus Sprint Goal at the Nexus Sprint Review.
+--------------------------------------------------
+
+Block 136:
+Key Concepts and Definitions: Coherence and focus for the Nexus for the Sprint by encouraging Scrum Teams to work together.
+--------------------------------------------------
+

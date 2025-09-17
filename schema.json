@@ -1,0 +1,65 @@
+[
+  {
+    "node": "Article"
+  },
+  {
+    "node": "ScrumRole"
+  },
+  {
+    "node": "ScrumArtifact"
+  },
+  {
+    "node": "ScrumEvent"
+  },
+  {
+    "node": "ScrumValue"
+  },
+  {
+    "node": "Methodology"
+  },
+  {
+    "node": "Process"
+  },
+  {
+    "node": "Concept"
+  },
+  {
+    "relationship": "MENTIONS_ROLE"
+  },
+  {
+    "relationship": "DESCRIBES_ARTIFACT"
+  },
+  {
+    "relationship": "EXPLAINS_EVENT"
+  },
+  {
+    "relationship": "PROMOTES_VALUE"
+  },
+  {
+    "relationship": "USES_METHODOLOGY"
+  },
+  {
+    "relationship": "INCLUDES_PROCESS"
+  },
+  {
+    "relationship": "DEFINES_CONCEPT"
+  },
+  {
+    "relationship": "HAS_RESPONSIBILITY"
+  },
+  {
+    "relationship": "CREATES_ARTIFACT"
+  },
+  {
+    "relationship": "PARTICIPATES_IN"
+  },
+  {
+    "relationship": "PRODUCES_ARTIFACT"
+  },
+  {
+    "relationship": "SUPPORTS_VALUE"
+  },
+  {
+    "relationship": "RELATES_TO"
+  }
+]

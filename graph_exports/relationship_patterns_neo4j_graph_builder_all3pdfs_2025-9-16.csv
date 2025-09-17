@@ -1,0 +1,14 @@
+Source,Relationship,Target,Count
+Scrum,DEFINES_CONCEPT,Concept,1
+Scrum,USES_METHODOLOGY,Methodology,1
+Scrum,INCLUDES_PROCESS,Process,1
+Scrum,DESCRIBES_ARTIFACT,ScrumArtifact,3
+Scrum,EXPLAINS_EVENT,ScrumEvent,4
+Scrum,MENTIONS_ROLE,ScrumRole,3
+Scrum,PROMOTES_VALUE,ScrumValue,2
+ScrumArtifact,RELATES_TO,ScrumArtifact,1
+ScrumEvent,RELATES_TO,ScrumEvent,1
+ScrumRole,CREATES_ARTIFACT,ScrumArtifact,1
+ScrumRole,PRODUCES_ARTIFACT,ScrumArtifact,1
+ScrumRole,PARTICIPATES_IN,ScrumEvent,2
+ScrumValue,SUPPORTS_VALUE,ScrumValue,1

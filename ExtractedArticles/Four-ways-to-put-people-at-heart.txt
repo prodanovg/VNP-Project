@@ -1,0 +1,47 @@
+The Agile Manifesto’s focus on collaboration and flexibility — the people doing the work and how they work together — totally transformed how teams approach product development when it was first introduced in 2001. Yet, over two decades later, rapid technological advancements and ever-evolving ways of working mean that tools are increasingly taking precedence over the human-centric principles upon which Agile was founded.
+
+What’s more, according to the 17th annual State of Agile report, nearly one-third of Agile practitioners say that they’re actively exploring how to use AI tools and incorporate them into their products and services. Does this rise in AI experimentation mean that we’re at risk of moving even further away from the Agile Manifesto’s first value of “individuals and interactions over processes and tools”?
+
+Not necessarily. Miro recently had the opportunity to host Alistair Cockburn, co-author of the Agile Manifesto, at our London hub for a training session on Use Cases and User Stories.
+
+Rory, Product Evangelist at Miro, shared, “It was a privilege to spend two days learning from Alistair. Learning and collaborating in person was a reminder of the importance of the first value of the Agile Manifesto: ‘individuals and interactions over processes and tools.’ Understanding how people work and promoting collaboration is the best way to elevate individuals — and this is what Miro, as a tool, aims to do.”
+
+To make humans the heroes of Agile again, organizations need to leverage the right tools in the right way — starting by prioritizing the following four factors.
+
+1. Inclusivity
+It can be difficult to create a meeting environment in which everyone feels comfortable contributing, especially in today’s distributed world of work.
+
+But Agile rituals like retrospectives are key to project success and require a culture of inclusivity and clear communication to thrive. So, picking tools that enable all team members to openly contribute without judgment or hassle is an important step in prioritizing the people working in an Agile team.
+
+For example, teams can enable private mode in Miro to openly and honestly share their feedback during retrospectives, which ultimately leads to a more inclusive way of working.
+
+
+2. Engagement
+It’s tough for teams to stay focused and engaged when processes get bogged down in bureaucracy and tools make work tedious. This is especially true for distributed teams trying to maintain momentum during virtual versions of retrospectives or sprint planning.
+
+Low engagement leads to low energy. To keep team members engaged, it’s crucial to use a tool that encourages contribution and cuts down on meeting fatigue.
+
+For example, our new intelligent widgets, like Story Points and People, are fast, interactive, and seamlessly connected, enhancing collaborative work and ensuring everyone can actively participate.
+
+
+Other built-in apps like Timer, Voting, Estimations, and Attention Management also help teams get aligned, stay focused, and make decisions.
+
+3. Flexibility
+The tools that Agile teams use often aren’t well suited to how they actually work. The rigidity of these tools means that teams tend to adapt to the tool itself rather than prioritizing the needs of the people doing the work.
+
+Tools that enable people to be flexible in the way that they work encourage Agility and allow teams to be more collaborative.
+
+For example, teams can integrate the apps or platforms that matter to them most directly in their Miro boards. This means that people can decide how they want to work; add the apps they need to to make the process easier; and eliminate the need to tool-switch. This flexibility makes product teams more Agile and, in turn, makes the overall product development process much quicker and easier.
+
+
+4. Collaboration
+Team or project leads are often inundated with administrative, manual tasks. From organizing outputs from ideation sessions into themes and next steps to converting to-do lists into Jira tickets, these tasks take time and can dull the shine of creative and collaborative meetings.
+
+While adopting AI may seem daunting to those who don’t want to add any more tools or processes to an already crowded tech stack, AI-powered tools can help to automate small, tedious tasks so that people can focus on what truly matters — creatively solving problems and getting valuable work done as a team.
+
+For example, during ideation sessions, Miro AI can automatically sort ideas and create themes from sticky notes, keeping the momentum of creative discussions going without the hassle of manual organization. These AI-powered tools help Agile teams stay dynamic and collaborative, allowing them to move from idea to output in record time.
+
+
+Empower your Agile team with intelligent tools
+Though it may seem counterintuitive, embracing intelligent tools allows Agile teams to prioritize the people doing the work. By optimizing for inclusivity, engagement, flexibility, and collaboration in their Agile tech stack, these collaborators can amplify their Agility and accelerate innovation, delivering impactful products faster and together.
+

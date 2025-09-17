@@ -1,0 +1,302 @@
+rel_type,from_node,to_node
+IDENTIFIE,Integration Team,Nexus Sprint Goal
+HELD_AT,Nexus Sprint Review,End Of The Sprint
+PROVIDE_FEEDBACK_ON,Nexus Sprint Review,Determine Future Adaptations
+ADAPTS_TO,Current Sprint,Remaining Work
+RE_PLAN,Current Sprint,Planned Work
+COLLABORATE_ON_FEEDBACK,Attendees,Nexus
+ALLOWED_TO_ADJUST,Nexus Scrum Teams,Adjustment Plan
+TOWARD,Yassir,Nexus Sprint Goal
+MAY_BE_ADJUST,Yassir,Product Backlog
+ACHIEV,Yassir,Nexus Sprint Review
+INCREASE_QUALITY_AND_EFF,Nexus Sprint Retrospective,Planning Ways To Increase Quality And Effectiveness
+IMPROVE_INDIVIDUALLY,Individual Team,Nexus
+INSPECT_HOW_IT_WENT,Last Sprint,"Inspect How It Went With Regards To Individuals, Teams, Interactions, Processes, Tools, And Its Definition Of Done"
+DESCRIBED_IN,Legalcode At Http://Creativecommons.Org/Licenses/By Sa/4.0/Legalcode,Summary Form At Http://Creativecommons.Org/Licenses/By Sa/4.0/
+ACCESSIBLE_AT,Attribution Share Alike License Of Creative Commons,Legalcode At Http://Creativecommons.Org/Licenses/By Sa/4.0/Legalcode
+CONTAINS,Nexus Artifacts,Commitments In Nexus Artifacts
+OFFERS_FOR_LICENSE_UNDER,Scrum.Org,Attribution Share Alike License Of Creative Commons
+ACHIEVE_THROUGH_ITERATIVE_PROGRESS,Continuous Improvement,Iterative Progress
+DELIVER_IN_SUSTAINABLE_MANNER,Agile,Working Software
+PREDICATE," Format: (Subject",Object
+INVOLVES,Scrum Software Development Process,Agile Methodology
+INVOLVES,Scrum Software Development Process,Strategic Goal
+USES,Scrum Software Development Process,Agile Methodology
+HELPS_UNDERSTAND_CURRENT_STATE_AND_GOAL,Scrum Software Development Process,Key Value Areas
+WORKS_ON,Development Team,Scrum Project
+WORKS_ON,Development Team,Working Software
+WORKS_ON,Development Team,Quality Assurance Team
+DELIVERS,Development Team,Working Software
+REPORTS_TO,Development Team,Scrum Master
+DEVELOP,Development Team,Software
+LED_BY,Development Team,Project Manager
+DECOMPOSE,Development Team,Decomposed Product Backlog
+HAS_DEPENDENCY_TRANSPARENCY,Development Team,Product Backlog Item
+IS_DEV_TEAM,Development Team,Scrum Master
+USES,Project Manager,Agile Development
+GOVERNED_BY,Rules Guide Relationships And Interactions,Scrum Framework
+CHARACTERIZED_BY,Collective Intelligence,Scrum Framework
+INVOLVES,Purposefully Incomplete,Scrum Framework
+HAS_SPRINT,Product Backlog,Sprint
+INCLUDES,Product Backlog,Sprint Backlog
+INCLUDES_INCREMENT,Product Backlog,Increment Of Value
+ACCOUNTABLE_FOR,Product Backlog,Product Owner
+PART_OF,Sprint,Four Formal Events For Inspection And Adaptation
+PRODUCES_INCREMENT,Sprint,Increment Of Value
+INVOLVES_PROCESS,Sprint,Inspect And Adjust
+IS_TYPE_OF,Sprint,Four Formal Events For Inspection And Adaptation
+INCREASE,Sprint,Increment
+MANAGES,Scrum Team,Product Backlog
+WORKS_ON,Scrum Team,Sprint
+WORKS_ON,Scrum Team,Turn Work Into Increment
+RELATED_TO,Scrum Team,Product Goal
+PART_OF,Scrum Team,Integrated Increment
+INVOLVES,Scrum Team,Processes And Workflows
+HAS_FOCU,Scrum Team,Focus
+IS_SELF_MANAG,Scrum Team,Self Managing Team
+IS_CROSS_FUNCTIONAL,Scrum Team,Cross Functional Team
+INVOLVED_IN,Scrum Team,Cross Team Refinement
+RESPONSIBLE_FOR,Scrum Team,Product Related Activities
+IS_RESPONSIBLE_FOR,Scrum Team,Internal Decision Making
+INCLUDES,Scrum Team,Product Owner
+REFINE,Scrum Team,Cross Team Refinement
+REFINE,Scrum Team,Nexus Sprint Planning Event
+INFLUENCE,Scrum Team,Adaptation And Performance
+COMMITMENT,Scrum Team,Achieving Goals
+PRODUCES_INCREMENT_OF_VALUE,Scrum Team,Increment Of Value
+CONDUCTS_SPRINT,Scrum Team,Sprint
+PERFORMS_INSPECT_AND_ADJUST,Scrum Team,Inspect And Adjust
+THROUGH_REGULAR_INSPECTION,Scrum Team,Regular Inspection
+AND_ADAPTATION,Scrum Team,Adaptation
+HAS_IMPACT,Scrum Team,Adaptation Impact
+ADAPTS_TO,Scrum Team,Scrum Value
+ADAPTATION,Scrum Team,New Information
+ADAPT,Scrum Team,Team Adaptation
+LIVE_BY,Scrum Team,Scrum Core Values
+HAS_OPENNESS,Scrum Team,Openness
+HAS_RESPECT,Scrum Team,Respect
+HAS_COURAGE,Scrum Team,Courage
+HAS_COMMITMENT,Scrum Team,Commitment
+ACHIEVE,Scrum Team,Product Goal
+HAS_PRODUCT_GOAL,Scrum Team,Product Goal
+IDENTIFY,Scrum Team,Inter Team Dependency
+WITHIN,Scrum Team,Nexus
+RESPONSIBLE_FOR_DELIVERING_PORTION_OF,Scrum Team,Integrated Increment
+FORECAST,Scrum Team,Deliverable
+MEET_TO_PLAN_SPRINT,Scrum Team,Product Owner
+KEEPS_IN_MIND,Scrum Team,Nexus Sprint Goal
+ENCOURAGE,Scrum Team,Focus
+ENCOURAGE,Scrum Team,Coherence
+MAINTAINING_REGULAR_ADAPTATION,Scrum Team,Transparency
+WORKS_ON,Scrum Master,Product Owner
+SUPPORTS_DEV_TEAM,Scrum Master,Development Team
+SUPPORT,Scrum Master,Development Team
+COLLABORATES_WITH,Scrum Master,Development Team Lead
+FACILITATES,Scrum Master,Scrum Events
+FACILITATES,Scrum Master,Scrum Process
+FACILITATES,Scrum Master,Facilitate Scrum Events
+ASSIGN,Scrum Master,Product Owner
+ASSIGN,Scrum Master,Team Lead
+COORDINATES_WITH,Scrum Master,Development Team
+FOSTER_ENVIRONMENT,Scrum Master,Foster Environment
+LEADS_SCRUM_TEAM,Scrum Master,Scrum Team
+REMOVE_IMPEDIMENT,Scrum Master,Remove Impediments
+FACILITAT,Scrum Master,Scrum Processes
+WORKS_ON,Product Owner,Order Work
+HAS_SCRUM_MASTER,Product Owner,Scrum Master
+RESPONSIBLE_FOR,Product Owner,Development Team
+IS_RESPONSIBLE_FOR,Product Owner,Scrum Master
+DEFINES,Product Owner,Product Backlog
+DEFINES,Product Owner,Define Product Backlog
+LEADS_DEV_TEAM,Product Owner,Development Team
+INCLUDES,Product Owner,Development Team
+PRIORITIZES,Product Owner,Product Backlog
+PRIORITIZES,Product Owner,Prioritize Items
+COORDINATES_WITH,Product Owner,Development Team Lead
+COLLABORATES_WITH_SCRUM_MASTER,Product Owner,Scrum Master
+CREATING_AND_MAINTAIN,Product Owner,Product Backlog
+RELATES_TO,Inspector,Adaptation Process
+ADJUST_FOR_NEXT_SPRINT,Inspector,Next Sprint
+INSPECT_AND_ADJUST_FOR_NEXT_SPRINT,Inspector,Inspection Procedure
+IS_TRANSPARENT,Inspector,Inspection
+PERFORM,Inspector,Next Action
+USES,Teams,Scrum
+ADVANCE_TOWARD,Teams,Intermediate Goals
+GATHER_RESULT,Teams,Results
+FORM_HYPOTHESE,Teams,Hypotheses
+EXTEND,Scrum,Nexus Artifacts
+INVOLVES,Scrum,Sprint Planning
+INVOLVES,Scrum,Daily Scrum
+INVOLVES,Scrum,Sprint Review
+INVOLVES,Scrum,Kva
+INVOLVES,Scrum,Requirements And Constraints Document
+FACILITATES,Scrum,Five Events
+EMPHASIZE,Scrum,Commitment
+EMPHASIZE,Scrum,Respect
+EMPHASIZE,Scrum,Openness
+EMPHASIZE,Scrum,Focus
+EMPHASIZE,Scrum,Courage
+EMPLOY,Scrum,"Iterative, Incremental Approach"
+HAS_INSPECTION,Scrum,Inspection
+HAS_TRANSPARENCY,Scrum,Transparency
+TO_CONTROL,Scrum,Control Risk
+TO_OPTIMIZE,Scrum,Optimize Predictability
+SO_THAT_IMPROVEMENTS_CAN_BE_MADE,Scrum,"Current Management, Environment, And Work Techniques"
+MAKES_VISIBLE_THE_RELATIVE_EFFICACY_OF,Scrum,Management
+WRAPS_AROUND,Scrum,Existing Practices
+ENABLE,Scrum,Inspection
+ENABLE,Scrum,Transparency
+ENABLE,Scrum,Adaptation
+RUN_EXPERIMENT,Scrum,Teams
+EXTRACT,Scrum,Structured Categories For Knowledge Graph Building
+USES,People,Scrum
+DEFINES,Organizations,"Goals, Measures, And Experiments"
+USES,Organizations,Scrum
+DETERMINE_NEXT_STEP,Organizations,Action
+PROGRESS_TOWARD,Organizations,Goal
+EVALUATE_BASED_ON,Organizations,Data
+MAKE_TRANSPARENT,Organizations,"Goals, Measures, And Experiments"
+LEAD,Manager,Department
+IS_CEO,Ceo,Company
+HOST,Company,Conference
+MEASURE,Company,Metric
+DELIVERS_VALUE_TO,Company,Client
+DELIVERS_VALUE_TO,Company,Investor
+REACHE,Company,Objective
+MEETS_NE,Company,Users
+IDENTIFY_UNTAPPED_OPPORTUNITIE,Company,Maximize Uv
+CAPTURE_ADDITIONAL_UV,Company,Further Investments
+PART_OF,John,Nexus Sprint Planning
+ATTENDS,John,Meeting
+HAS_MEMBER,Team,Member
+ACQUIRE_SKILL,Team,Group Of People
+SHARE_SKILL,Team,Group Of People
+DELIVERED_BY,Team,Increment
+COLLECTIVELY_HAVE_SKILL,Scrum Roles And Responsibilities,Group Of People
+INCLUDES,Scrum Events,And Ceremonies
+INVOLVES,Empiricism,Scrum
+INFLUENCE,Empiricism,Strategic Goal
+ACHIEVE,Empiricism,Strategic Goal
+ASSERTS_MAKING_OBSERV,Empiricism,Making Decisions Based On What Is Observed
+USES,Lean Thinking,Reduces Waste And Focuses On The Essentials
+INVOLVES,Transparency In Scrum,Scrum
+RELATED_TO,Sprint Backlog,Nexus Sprint Backlog
+INCLUDES,Sprint Backlog,Increment
+RELATED_TO,Sprint Planning,Daily Scrum
+RELATED_TO,Sprint Review,Sprint Retrospective
+PART_OF,Sprint Review,Retrospective
+RELATED_TO,Backlog Refinement,Sprint Planning
+REQUIRES_INSPECTION,Adaptor,Adaptation
+IDENTIFIE,Process,Variance
+DETECT,Process,Problem
+MEETS_GOAL,Process,Goal
+DETECTS_PROBLEM,Process,Problem
+IMPROVES_VISIBILITY,Process,Visibility
+DEFINES,Goal,Specific Measures
+USES,Events,Adaptation
+TRIGGERED_BY,Events,Inspection
+RELATED_TO,Emergent Process,Artifacts
+MODIFIED_BY,Artifacts,Emergent Process
+IS_RELATED_TO,Commitment,Respect
+FOSTERS_RESPECT,Commitment,Respect
+ENHANCES_OPENNESS,Commitment,Openness
+ENCOURAGES_COURAGE,Commitment,Courage
+REQUIRES_FOCU,Commitment,Focus
+IS_RELATED_TO,Openness,Commitment
+IS_RELATED_TO,Focus,Courage
+IS_DEVELOPER,Developer,Developer In Scrum Team
+CREATES,Developers,Sprint Work
+COMMITMENT_FOR,Product Goal,Product Owner
+COMMUNICATES_WITH,Cross Functional Team,Team Member
+AT_A_SUSTAINABLE_PACE,Sprints,At A Sustainable Pace
+PARTICIPATES_IN,Stakeholder,Experimentation
+IS_INVOLVED_IN,Stakeholder,Collaboration
+EXECUTE,Operator,Operation
+PERFORM,Verifier,Verification
+CONDUCT,Researcher,Research And Development
+RESPONSIBLE_FOR,Maintainer,Maintenance
+USES,Team Member,Agile Method
+SOLVED_BY,Complex Problems,Scrum
+RELATED_TO,Strategic Goal,Intermediate Goals
+ACHIEVE,Strategic Goal,Workflow
+INDICATES_PROGRESS_TOWARD,Strategic Goal,Achievement Of Intermediate Goals
+EXPERIMENT,Workflow,Procedures
+ADJUSTED_BY,Intermediate Goals,Current State
+HAS_SUBGOAL,Intermediate Goals,Immediate Tactical Goals
+LEAD,Team Lead,Scrum Software Development
+ADOPT,Team Lead,Scrum Framework
+IMPLEMENT,Team Lead,Kva
+RELATES_TO,Hypotheses,Evidence
+RELATES_TO,Evidence,Adjusted Goals
+SUPPORTS_GOAL,Evidence,Goals
+RELATES_TO,Adjusted Goals,Progress Toward Strategic Goal
+WORKS_ON,Roles,Artifacts
+TESTS_HYPOTHESI,Experiments,Hypotheses
+IS_CURRENT_STATE,Starting State,Current State
+LINK_TO_RESOURCE,Scrum Guide,Https://Www.Scrumguides.Org/Scrum Guide.Html
+REQUIRES_PROCESS_FOR_GOAL,Strategic Goals,"Experimenting, Inspecting, And Adapting"
+HAS_RESPONSE,Infectious Disease,Response To An Infectious Disease
+IS_RELATED_TO,Ebm,Evidence Based Medicine
+USES,Ebm,Focuses On Four Key Value Areas
+INVOLVES,Sequencing The Dna Of A Virus Or Bacterium,Virus Or Bacterium
+IS_RELATED_TO,Isolating Symptoms,Evaluating A Therapy
+ACHIEVING_OUTCOME_PEOPLE,Specific Group Of People,Desirable Outcome
+IMPROVED_HAPPINESS_SAFETY_SECURITY_OR_WELL_BE,Some Product Or Service,Recipients Of The Product/Service
+RELATED_TO,Intermediate Goal,Satisfaction Gap
+CONTRIBUTES_TO,Unrealized Value,Strategic Goal
+MAXIMIZED_UNREALIZED_VALUE,Unrealized Value,Maximized
+IMPROVE,Project Management,Increased Productivity
+PROVIDE,Report,Informed Decision
+DELIVERS_VALUE,Organization,Delivering Value
+MOVES_TOWARD_GOAL,Hypotheses And Experiments,Moving Toward Goals
+RELATES_TO,Key Value Areas,Unrealized Value
+CONTRIBUTES_TO,Current Value,Key Value Areas
+INFLUENCE,Time To Market,Ability To Innovate
+INVESTS_IN,Investor,Company
+PURSUE_UV,Investor,Make Further Investments To Capture Additional Uv
+IDENTIFY,Investor,Untapped Opportunities
+EVALUATE_WORTH_OF_EFFORT,Investor,Identify Untapped Opportunities
+EVALUATE_WORTH_OF_EFFORT,Investor,Uv
+INVOLVED_IN,Daily Scrum Meetings,Sprint Planning
+USES,Customer,Service
+DELIVER_VALUE_TO_CUSTOMER,Customer,Company
+PRESENT_AND_POSSIBLE_FUTURE_BENEFIT,Customer,Unrealized Value
+WORKS_ON,Employee,Company
+REPORTS_TO,Employee,Manager
+RECOGNIZE_EMPLOYEE_CONTRIBUTION,Employee,Company
+IMPROVE_CUSTOMER_SATISFACTION,Employee,Manager
+INVOLVES,Scrum Software Development,Agile Methodology
+INCREASED_CUSTOMER_SATISFACTION,Max,Company
+IMPROVED_PRODUCT_QUALITY,Product A,High Quality
+CONTAINS,Nexus,Scrum Team
+HOST,Nexus,Scrum Team
+REDUCE_CROSS_TEAM_DEPENDENCIES_WITHIN_A_NEXU,Nexus,Cross Team Dependency
+HAS_DEPENDENCIE,Quality Assurance Team,Unidentified Dependencies
+COLLABORATES_WITH,Product Backlog Owner,Product Owner
+ELIMINATES_CROSS_TEAM_DEPENDENCIE,Product Backlog Owner,Development Team
+DELIVER_A_SINGLE_INTEGRATED_INCREMENT,Integrated Increment,Nexus
+EXECUTE,Executor,Sprint Execution
+REFINE,Cross Team,Refinement
+PLAN,Planner,Sprint Planning
+DELIVERS,Delivery Team,Integrated Increment
+SCALED_VERSION_OF,Nexus Scrum,Scrum Framework
+REFINE,Product Development Team,Product Backlog
+HAS_DEPENDENCIE,Product Development Team,Unidentified Dependencies
+RELATED_TO,Nexus Sprint Planning,Cross Team Refinement
+INVOLVES,Nexus Sprint Planning,Cross Team Refinement
+HAS_GOAL,Nexus Sprint Planning,Create A Nexus Sprint Goal
+ADDS_TO,Nexus Sprint Planning,Nexus Sprint Backlog
+OPTIMIZES_AND_IDENTIFICATION,Ongoing Cross Team Refinement,Optimization Of Forecasting And Dependency Identification
+CROSS_TEAM_REFINEMENT,John Smith,Development Team
+HAS_SPRINT_GOAL,Nexus Sprint Backlog,Sprint Goal
+HAS_SCRUM_TEAM,Nexus Sprint Backlog,Sprint Backlogs For Each Scrum Team
+IS_NEXUS_SPRINT_BACKLOG,Nexus Sprint Backlog,Nexus Sprint Goal
+ATTENDS,Scrum Teams,Nexus Daily Scrum
+COMPLEMENT_THE_NEXUS_SPRINT_RETROSPECTIVE,Scrum Teams,Nexus
+COORDINATE_WITHIN_SPRINT,Scrum Teams,Nexus
+WITHIN_A_NEXUS_FOR_A_SINGLE_SPRINT,All Scrum Teams,Single Sprint
+TOWARD,Nexus Sprint Goal,Inspect Progress
+HAS_SCRUM_TEAM,Nexus Sprint Goal,Sprint Goals For Each Scrum Team
+HAS_GOAL,Nexus Sprint Goal,Integrated Increment
+RELATED_TO,Nexus Daily Scrum,Nexus Sprint Review
+HAS_INTEGRATION_ISSUE,Nexus Daily Scrum,Integration Issues
