@@ -1,0 +1,76 @@
+
+======================================================================
+TRIPLE OVERLAP ANALYSIS
+======================================================================
+Method1: 23 unique triples
+Method2: 301 unique triples
+Common triples: 1
+Unique to Method1: 22
+Unique to Method2: 300
+Total unique triples: 323
+Triple Overlap: 0.3%
+
+Sample Common Triples (showing first 5):
+  1. (Subject) --[Predicate]--> (Object)
+
+======================================================================
+PREDICATE (RELATIONSHIP) ANALYSIS
+======================================================================
+Method1: 13 unique predicates
+Method2: 203 unique predicates
+Common predicates: 1
+Predicate Overlap: 0.5%
+
+Common Predicates (with frequencies):
+  Predicate: 1 vs 1
+
+Top Predicates Unique to Method1:
+  EXPLAINS_EVENT (4)
+  DESCRIBES_ARTIFACT (3)
+  MENTIONS_ROLE (3)
+  PROMOTES_VALUE (2)
+  PARTICIPATES_IN (2)
+
+Top Predicates Unique to Method2:
+  involves (14)
+  related_to (10)
+  uses (10)
+  works_on (9)
+  emphasize (5)
+
+======================================================================
+ENTITY OVERLAP ANALYSIS
+======================================================================
+Method1: 18 unique entities
+Method2: 263 unique entities
+Common entities: 16
+Entity Overlap: 6.0%
+
+Sample Common Entities:
+  1. Agile
+  2. Commitment
+  3. Daily Scrum
+  4. Developer
+  5. Focus
+  6. Increment
+  7. Object
+  8. Product Backlog
+  9. Product Owner
+  10. Scrum Master
+
+======================================================================
+STRUCTURAL PATTERN ANALYSIS
+======================================================================
+Subject-Predicate Pattern Overlap: 0.3%
+Predicate-Object Pattern Overlap: 0.3%
+
+======================================================================
+COMPREHENSIVE SIMILARITY REPORT
+======================================================================
+Triple Overlap: 0.3%
+Predicate Overlap: 0.5%
+Entity Overlap: 6.0%
+Structural Pattern Overlap: 0.3%
+
+OVERALL SIMILARITY SCORE: 1.5%
+Quality Assessment: LOW - Substantial differences in knowledge extraction

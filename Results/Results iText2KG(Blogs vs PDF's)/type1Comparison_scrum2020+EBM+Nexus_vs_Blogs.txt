@@ -1,0 +1,22 @@
+Loaded Blogs successfully
+Loaded 2020Scrum+EBM+Nexus successfully
+
+COMPARISON: Blogs vs 2020Scrum+EBM+Nexus
+Pattern Match: 5.6%
+Node Type Match: 100.0%
+Relationship Type Match: 12.8%
+Overall Score: 35.4%
+
+STATS for Blogs:
+Total Nodes: 220
+Total Relationships: 225
+Unique Node Types: 9
+Unique Relationship Types: 134
+Unique Patterns: 187
+
+STATS for 2020Scrum+EBM+Nexus:
+Total Nodes: 263
+Total Relationships: 301
+Unique Node Types: 9
+Unique Relationship Types: 201
+Unique Patterns: 264

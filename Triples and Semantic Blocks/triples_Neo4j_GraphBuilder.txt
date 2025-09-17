@@ -1,0 +1,27 @@
+# Knowledge Graph Triples
+# Total: 22 triples
+# Format: (Subject) --[Predicate]--> (Object)
+
+ 1. (null) --[MENTIONS_ROLE]--> (Product Owner)
+ 2. (null) --[MENTIONS_ROLE]--> (Scrum Master)
+ 3. (null) --[MENTIONS_ROLE]--> (Developer)
+ 4. (null) --[DESCRIBES_ARTIFACT]--> (Product Backlog)
+ 5. (null) --[DESCRIBES_ARTIFACT]--> (Sprint Backlog)
+ 6. (null) --[DESCRIBES_ARTIFACT]--> (Increment)
+ 7. (null) --[EXPLAINS_EVENT]--> (Sprint Planning)
+ 8. (null) --[EXPLAINS_EVENT]--> (Daily Scrum)
+ 9. (null) --[EXPLAINS_EVENT]--> (Sprint Review)
+10. (null) --[EXPLAINS_EVENT]--> (Sprint Retrospective)
+11. (null) --[PROMOTES_VALUE]--> (Commitment)
+12. (null) --[PROMOTES_VALUE]--> (Focus)
+13. (null) --[USES_METHODOLOGY]--> (Agile)
+14. (null) --[INCLUDES_PROCESS]--> (Sprint Cycle)
+15. (null) --[DEFINES_CONCEPT]--> (Transparency)
+16. (Product Owner) --[CREATES_ARTIFACT]--> (Product Backlog)
+17. (Scrum Master) --[PARTICIPATES_IN]--> (Daily Scrum)
+18. (Developer) --[PRODUCES_ARTIFACT]--> (Increment)
+19. (Developer) --[PARTICIPATES_IN]--> (Daily Scrum)
+20. (Product Backlog) --[RELATES_TO]--> (Sprint Backlog)
+21. (Sprint Planning) --[RELATES_TO]--> (Daily Scrum)
+22. (Commitment) --[SUPPORTS_VALUE]--> (Focus)
+
