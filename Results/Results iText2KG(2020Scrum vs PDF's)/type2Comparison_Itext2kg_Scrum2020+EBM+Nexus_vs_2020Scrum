@@ -3,87 +3,87 @@
 TRIPLE OVERLAP ANALYSIS
 ======================================================================
 Method1: 255 unique triples
-Method2: 183 unique triples
-Common triples: 8
-Unique to Method1: 247
-Unique to Method2: 175
-Total unique triples: 430
-Triple Overlap: 1.9%
+Method2: 301 unique triples
+Common triples: 12
+Unique to Method1: 243
+Unique to Method2: 289
+Total unique triples: 544
+Triple Overlap: 2.2%
 
 Sample Common Triples (showing first 5):
-  1. (Product Backlog) --[include]--> (Increment)
-  2. (Product Owner) --[has_role]--> (Scrum Roles And Responsibilities)
-  3. (Product Owner) --[lead]--> (Development Team)
+  1. (Employee) --[reports_to]--> (Manager)
+  2. (Product Owner) --[has_scrum_master]--> (Scrum Master)
+  3. (Product Owner) --[leads_development_team]--> (Development Team)
   4. (Scrum Master) --[assign]--> (Product Owner)
-  5. (Scrum Master) --[facilitates]--> (Facilitating Scrum Processes)
+  5. (Scrum Master) --[support]--> (Development Team)
 
 ======================================================================
 PREDICATE (RELATIONSHIP) ANALYSIS
 ======================================================================
 Method1: 173 unique predicates
-Method2: 100 unique predicates
-Common predicates: 36
-Predicate Overlap: 15.2%
+Method2: 203 unique predicates
+Common predicates: 52
+Predicate Overlap: 16.0%
 
 Common Predicates (with frequencies):
-  works_on: 13 vs 5
+  works_on: 13 vs 9
   involves: 2 vs 14
-  has_role: 7 vs 7
+  related_to: 3 vs 10
   is_part_of: 9 vs 2
+  uses: 1 vs 10
   include: 6 vs 5
-  responsible_for: 7 vs 4
-  related_to: 3 vs 7
-  is_responsible_for: 6 vs 4
-  uses: 1 vs 6
-  facilitates: 2 vs 5
+  is_related_to: 5 vs 5
+  responsible_for: 7 vs 3
+  is_responsible_for: 6 vs 2
+  defines: 3 vs 4
 
 Top Predicates Unique to Method1:
+  has_role (7)
   has_step (4)
-  is_based_on (3)
   has_precedence (3)
-  gain (2)
-  produces_increment (2)
+  is_based_on (3)
+  is_directly_related_to (2)
 
 Top Predicates Unique to Method2:
-  builds (4)
-  will_be_finished_by (4)
-  developed_by (2)
-  correlation_between_story_value_and_size (2)
-  practiced_by (2)
+  __ (3)
+  enable (3)
+  achieve (3)
+  execute (2)
+  has_dependencie (2)
 
 ======================================================================
 ENTITY OVERLAP ANALYSIS
 ======================================================================
 Method1: 160 unique entities
-Method2: 167 unique entities
-Common entities: 33
-Entity Overlap: 11.2%
+Method2: 263 unique entities
+Common entities: 68
+Entity Overlap: 19.2%
 
 Sample Common Entities:
-  1. Agile
-  2. Ceo
-  3. Company
-  4. Daily Scrum
-  5. Developer
-  6. Development
-  7. Development Team
-  8. Facilitating Scrum Processes
-  9. Increment
-  10. Manager
+  1. Achieving Goals
+  2. Adaptation
+  3. Agile
+  4. Agile Development
+  5. Agile Methodology
+  6. Ceo
+  7. Collaboration
+  8. Commitment
+  9. Company
+  10. Courage
 
 ======================================================================
 STRUCTURAL PATTERN ANALYSIS
 ======================================================================
-Subject-Predicate Pattern Overlap: 4.4%
-Predicate-Object Pattern Overlap: 3.6%
+Subject-Predicate Pattern Overlap: 5.0%
+Predicate-Object Pattern Overlap: 4.9%
 
 ======================================================================
 COMPREHENSIVE SIMILARITY REPORT
 ======================================================================
-Triple Overlap: 1.9%
-Predicate Overlap: 15.2%
-Entity Overlap: 11.2%
-Structural Pattern Overlap: 4.0%
+Triple Overlap: 2.2%
+Predicate Overlap: 16.0%
+Entity Overlap: 19.2%
+Structural Pattern Overlap: 4.9%
 
-OVERALL SIMILARITY SCORE: 7.9%
+OVERALL SIMILARITY SCORE: 10.0%
 Quality Assessment: LOW - Substantial differences in knowledge extraction

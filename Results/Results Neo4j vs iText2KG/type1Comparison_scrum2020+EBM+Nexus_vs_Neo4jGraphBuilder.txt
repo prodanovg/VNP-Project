@@ -4,19 +4,6 @@ Node Type Match: 5.9%
 Relationship Type Match: 0.9%
 Overall Score: 2.0%
 
-SCHEMA COMPLIANCE for neo4j_builder:
-Missing Nodes: None
-Missing Relationships: ['HAS_RESPONSIBILITY']
-Extra Nodes: ['Document']
-Extra Relationships: None
-Schema Compliance: 96.2%
-
-COMPARISON: neo4j_builder vs itext2kg
-Pattern Match: 0.0%
-Node Type Match: 5.9%
-Relationship Type Match: 0.9%
-Overall Score: 2.0%
-
 STATS for neo4j_builder:
 Total Nodes: 17
 Total Relationships: 22

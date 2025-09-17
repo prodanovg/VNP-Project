@@ -1,0 +1,22 @@
+Loaded EBM successfully
+Loaded Nexus successfully
+
+COMPARISON: EBM vs Nexus
+Pattern Match: 3.7%
+Node Type Match: 90.0%
+Relationship Type Match: 10.5%
+Overall Score: 30.9%
+
+STATS for EBM:
+Total Nodes: 195
+Total Relationships: 199
+Unique Node Types: 9
+Unique Relationship Types: 128
+Unique Patterns: 156
+
+STATS for Nexus:
+Total Nodes: 166
+Total Relationships: 202
+Unique Node Types: 10
+Unique Relationship Types: 115
+Unique Patterns: 180

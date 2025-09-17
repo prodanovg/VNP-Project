@@ -1,0 +1,20 @@
+COMPARISON: video vs 2020Scrum+EBM+Nexus
+Pattern Match: 6.2%
+Node Type Match: 77.8%
+Relationship Type Match: 12.4%
+Overall Score: 28.9%
+
+
+STATS for video:
+Total Nodes: 168
+Total Relationships: 184
+Unique Node Types: 7
+Unique Relationship Types: 99
+Unique Patterns: 148
+
+STATS for 2020Scrum+EBM+Nexus:
+Total Nodes: 263
+Total Relationships: 301
+Unique Node Types: 9
+Unique Relationship Types: 201
+Unique Patterns: 264

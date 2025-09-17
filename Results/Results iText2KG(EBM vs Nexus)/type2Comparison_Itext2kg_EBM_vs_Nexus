@@ -1,0 +1,87 @@
+
+======================================================================
+TRIPLE OVERLAP ANALYSIS
+======================================================================
+Method1: 198 unique triples
+Method2: 202 unique triples
+Common triples: 3
+Unique to Method1: 195
+Unique to Method2: 199
+Total unique triples: 397
+Triple Overlap: 0.8%
+
+Sample Common Triples (showing first 5):
+  1. (Sprint Planning) --[related_to]--> (Daily Scrum)
+  2. (Sprint Review) --[related_to]--> (Sprint Retrospective)
+  3. (Subject) --[Predicate]--> (Object)
+
+======================================================================
+PREDICATE (RELATIONSHIP) ANALYSIS
+======================================================================
+Method1: 129 unique predicates
+Method2: 116 unique predicates
+Common predicates: 24
+Predicate Overlap: 10.9%
+
+Common Predicates (with frequencies):
+  related_to: 14 vs 12
+  works_on: 7 vs 9
+  is_part_of: 4 vs 8
+  include: 6 vs 6
+  involves: 6 vs 5
+  relates_to: 8 vs 2
+  uses: 6 vs 4
+  is_related_to: 5 vs 4
+  defines: 4 vs 5
+  manages: 1 vs 6
+
+Top Predicates Unique to Method1:
+  is_founder (2)
+  is_member (2)
+  contains (2)
+  require (2)
+  aligned_with (2)
+
+Top Predicates Unique to Method2:
+  holds_position (7)
+  meet (5)
+  consists_of (3)
+  responsible_for (3)
+  extend (3)
+
+======================================================================
+ENTITY OVERLAP ANALYSIS
+======================================================================
+Method1: 193 unique entities
+Method2: 166 unique entities
+Common entities: 36
+Entity Overlap: 11.1%
+
+Sample Common Entities:
+  1. Agile
+  2. Ceo
+  3. Christina Schwaber
+  4. Company
+  5. Daily Scrum
+  6. Developer
+  7. Developers
+  8. Development Team
+  9. Framework
+  10. Goal
+
+======================================================================
+STRUCTURAL PATTERN ANALYSIS
+======================================================================
+Subject-Predicate Pattern Overlap: 2.2%
+Predicate-Object Pattern Overlap: 1.6%
+
+======================================================================
+COMPREHENSIVE SIMILARITY REPORT
+======================================================================
+Triple Overlap: 0.8%
+Predicate Overlap: 10.9%
+Entity Overlap: 11.1%
+Structural Pattern Overlap: 1.9%
+
+OVERALL SIMILARITY SCORE: 6.0%
+Quality Assessment: LOW - Substantial differences in knowledge extraction

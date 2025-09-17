@@ -1,0 +1,19 @@
+COMPARISON: 2020Scrum vs 2020Scrum+EBM+Nexus
+Pattern Match: 5.7%
+Node Type Match: 90.0%
+Relationship Type Match: 15.8%
+Overall Score: 33.0%
+
+STATS for 2020Scrum:
+Total Nodes: 160
+Total Relationships: 255
+Unique Node Types: 10
+Unique Relationship Types: 172
+Unique Patterns: 218
+
+STATS for 2020Scrum+EBM+Nexus:
+Total Nodes: 263
+Total Relationships: 301
+Unique Node Types: 9
+Unique Relationship Types: 201
+Unique Patterns: 264

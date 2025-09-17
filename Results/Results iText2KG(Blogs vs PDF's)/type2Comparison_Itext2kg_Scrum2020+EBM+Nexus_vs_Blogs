@@ -1,0 +1,89 @@
+
+======================================================================
+TRIPLE OVERLAP ANALYSIS
+======================================================================
+Method1: 224 unique triples
+Method2: 301 unique triples
+Common triples: 13
+Unique to Method1: 211
+Unique to Method2: 288
+Total unique triples: 512
+Triple Overlap: 2.5%
+
+Sample Common Triples (showing first 5):
+  1. (Development Team) --[deliver]--> (Working Software)
+  2. (Development Team) --[is_development_team]--> (Scrum Master)
+  3. (Product Backlog) --[include]--> (Sprint Backlog)
+  4. (Product Owner) --[defines]--> (Product Backlog)
+  5. (Product Owner) --[include]--> (Development Team)
+
+======================================================================
+PREDICATE (RELATIONSHIP) ANALYSIS
+======================================================================
+Method1: 133 unique predicates
+Method2: 203 unique predicates
+Common predicates: 38
+Predicate Overlap: 12.8%
+
+Common Predicates (with frequencies):
+  involves: 16 vs 14
+  related_to: 11 vs 10
+  uses: 8 vs 10
+  works_on: 7 vs 9
+  defines: 5 vs 4
+  is_part_of: 7 vs 2
+  include: 4 vs 5
+  is_related_to: 3 vs 5
+  facilitates: 4 vs 4
+  emphasize: 1 vs 5
+
+Top Predicates Unique to Method1:
+  triggers_legitimate_anxiety_for (4)
+  follow (3)
+  require (3)
+  based_on (3)
+  make_humans_heroes_of_agile_again_by_leveraging_the_right_tools_in_the_right_way (2)
+
+Top Predicates Unique to Method2:
+  refine (4)
+  __ (3)
+  achieve (3)
+  influence (3)
+  execute (2)
+
+======================================================================
+ENTITY OVERLAP ANALYSIS
+======================================================================
+Method1: 218 unique entities
+Method2: 263 unique entities
+Common entities: 49
+Entity Overlap: 11.3%
+
+Sample Common Entities:
+  1. Agile
+  2. Agile Methodology
+  3. Artifacts
+  4. Ceo
+  5. Collaboration
+  6. Commitment
+  7. Company
+  8. Continuous Improvement
+  9. Customer
+  10. Daily Scrum
+
+======================================================================
+STRUCTURAL PATTERN ANALYSIS
+======================================================================
+Subject-Predicate Pattern Overlap: 3.8%
+Predicate-Object Pattern Overlap: 3.9%
+
+======================================================================
+COMPREHENSIVE SIMILARITY REPORT
+======================================================================
+Triple Overlap: 2.5%
+Predicate Overlap: 12.8%
+Entity Overlap: 11.3%
+Structural Pattern Overlap: 3.9%
+
+OVERALL SIMILARITY SCORE: 7.5%
+Quality Assessment: LOW - Substantial differences in knowledge extraction
