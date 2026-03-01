@@ -1,248 +1,311 @@
-The Agile Manifesto’s focus on collaboration and flexibility — the people doing the work and how they work together — totally transformed how teams approach product development when it was first introduced in 2001. Yet, over two decades later, rapid technological advancements and ever-evolving ways of working mean that tools are increasingly taking precedence over the human-centric principles upon which Agile was founded.
-
-What’s more, according to the 17th annual State of Agile report, nearly one-third of Agile practitioners say that they’re actively exploring how to use AI tools and incorporate them into their products and services. Does this rise in AI experimentation mean that we’re at risk of moving even further away from the Agile Manifesto’s first value of “individuals and interactions over processes and tools”?
-
-Not necessarily. Miro recently had the opportunity to host Alistair Cockburn, co-author of the Agile Manifesto, at our London hub for a training session on Use Cases and User Stories.
-
-Rory, Product Evangelist at Miro, shared, “It was a privilege to spend two days learning from Alistair. Learning and collaborating in person was a reminder of the importance of the first value of the Agile Manifesto: ‘individuals and interactions over processes and tools.’ Understanding how people work and promoting collaboration is the best way to elevate individuals — and this is what Miro, as a tool, aims to do.”
-
-To make humans the heroes of Agile again, organizations need to leverage the right tools in the right way — starting by prioritizing the following four factors.
-
-1. Inclusivity
-It can be difficult to create a meeting environment in which everyone feels comfortable contributing, especially in today’s distributed world of work.
-
-But Agile rituals like retrospectives are key to project success and require a culture of inclusivity and clear communication to thrive. So, picking tools that enable all team members to openly contribute without judgment or hassle is an important step in prioritizing the people working in an Agile team.
-
-For example, teams can enable private mode in Miro to openly and honestly share their feedback during retrospectives, which ultimately leads to a more inclusive way of working.
-
-
-2. Engagement
-It’s tough for teams to stay focused and engaged when processes get bogged down in bureaucracy and tools make work tedious. This is especially true for distributed teams trying to maintain momentum during virtual versions of retrospectives or sprint planning.
-
-Low engagement leads to low energy. To keep team members engaged, it’s crucial to use a tool that encourages contribution and cuts down on meeting fatigue.
-
-For example, our new intelligent widgets, like Story Points and People, are fast, interactive, and seamlessly connected, enhancing collaborative work and ensuring everyone can actively participate.
-
-
-Other built-in apps like Timer, Voting, Estimations, and Attention Management also help teams get aligned, stay focused, and make decisions.
-
-3. Flexibility
-The tools that Agile teams use often aren’t well suited to how they actually work. The rigidity of these tools means that teams tend to adapt to the tool itself rather than prioritizing the needs of the people doing the work.
-
-Tools that enable people to be flexible in the way that they work encourage Agility and allow teams to be more collaborative.
-
-For example, teams can integrate the apps or platforms that matter to them most directly in their Miro boards. This means that people can decide how they want to work; add the apps they need to to make the process easier; and eliminate the need to tool-switch. This flexibility makes product teams more Agile and, in turn, makes the overall product development process much quicker and easier.
-
-
-4. Collaboration
-Team or project leads are often inundated with administrative, manual tasks. From organizing outputs from ideation sessions into themes and next steps to converting to-do lists into Jira tickets, these tasks take time and can dull the shine of creative and collaborative meetings.
-
-While adopting AI may seem daunting to those who don’t want to add any more tools or processes to an already crowded tech stack, AI-powered tools can help to automate small, tedious tasks so that people can focus on what truly matters — creatively solving problems and getting valuable work done as a team.
-
-For example, during ideation sessions, Miro AI can automatically sort ideas and create themes from sticky notes, keeping the momentum of creative discussions going without the hassle of manual organization. These AI-powered tools help Agile teams stay dynamic and collaborative, allowing them to move from idea to output in record time.
-
-
-Empower your Agile team with intelligent tools
-Though it may seem counterintuitive, embracing intelligent tools allows Agile teams to prioritize the people doing the work. By optimizing for inclusivity, engagement, flexibility, and collaboration in their Agile tech stack, these collaborators can amplify their Agility and accelerate innovation, delivering impactful products faster and together.
-
-Agile, rightly or wrongly, is often praised as the key to faster development, but speed without direction leads nowhere.
-
-At Siemens, a global quality assurance (QA) team responsible for ensuring the reliability of MindSphere—a cloud-based industrial IoT platform—found themselves running in circles. Bugs were treated as setbacks, sprint planning felt reactive, and defect tracking became an exercise in bureaucracy rather than insight.
-
-Despite following Agile rituals, teams struggled with the following:
-
-Recurring defects that pointed to deeper issues but were ignored in the rush to ship features
-Escaped bugs reaching production, leading to costly disruptions
-Subjective prioritization, where defect severity was decided based on individual opinions rather than data
-An imbalance between delivering new features and addressing long-standing quality issues
-The result? Agile was being “followed” but wasn’t truly understood.
-
-Challenges: The hidden costs of ignoring bugs
-The team faced a harsh reality: treating bugs as isolated problems rather than as indicators of systemic weaknesses led to a cycle of inefficiency. Each sprint introduced new features, but old defects lingered, accumulating technical debt.
-
-Over time, these issues compounded, slowing development and frustrating customers.
-
-Some specific problems included the following:
-
-Aged bugs: Some defects sat unresolved for months, and their impact was underestimated until they caused critical failures.
-Bug clusters: Issues in similar areas of the application were reported repeatedly, but no one connected the dots.
-Security oversights: Because security flaws weren’t immediately customer-facing, they often remained a low priority.
-Escaped defects: Despite rigorous testing, some bugs only appeared under real-world conditions, exposing flaws in test coverage.
-Transformation: Learning to listen to bugs
-The breakthrough came not from fixing more bugs, but from understanding them. The team shifted their mindset: rather than just resolving defects, they would use them to improve development processes, sprint planning, and software quality.
-
-1. Data-Driven insights with automated dashboards
-To move beyond gut feelings, the team built dashboards these areas:
-
-Bug distribution across modules—highlighting high-risk areas
-Resolution time trends—pinpointing bottlenecks
-Escaped defects—identifying gaps in testing strategies
-This transparency allowed them to allocate resources more effectively, ensuring that the most impactful defects were addressed first.
-
-2. Collaboration: Developers and QA working as one
-Instead of treating defects as the sole responsibility of testers, the team introduced structured bug triage meetings where developers and testers jointly diagnosed root causes. This reduced the cycle of back-and-forth handoffs and encouraged faster resolution.
-
-3. Machine learning for smarter bug triage
-To eliminate subjectivity in severity assessment, the team trained a machine learning model on historical defect data. The system analyzed bug descriptions and automatically suggested severity levels, ensuring consistency and prioritizing critical issues. Additionally, defect clustering revealed underlying weaknesses in specific features.
-
-4. Aligning sprints with quality goals
-Instead of pushing new features at all costs, sprint planning became more balanced. If unresolved defects began accumulating, the team dedicated sprints solely to bug resolution, reducing long-term technical debt and improving software stability.
-
-Results: A smarter, more Agile QA team
-The transformation paid off, delivering tangible improvements.
-
-Metric	Improvement
-Escaped Defects	Reduced by 30%
-Bug Resolution Speed	Significantly improved due to automated tracking
-Consistency in Prioritization	Enhanced with machine learning-based severity classification
-Customer Satisfaction	Increased as critical issues were resolved faster
-Agile as a mindset, not a checklist
-This success story reinforces a fundamental truth: Agile is not just about moving fast; it’s about moving intelligently. By treating bugs as learning tools rather than annoyances, this QA team transformed their defect management process into a strategic advantage.
-
-Ultimately, their journey reflects the essence of Agile: continuous learning, collaboration, and adaptability. The result? A more resilient, data-driven, and customer-focused development process.
-
-TL; DR: AI FOMO — A Paradox
-
-AI FOMO comes from seeing everyone’s polished AI achievements while you see all your own experiments, failures, and confusion.
-
-The constant drumbeat of AI breakthroughs triggers legitimate anxiety for Scrum Masters, Product Owners, Business Analysts, and Product Managers: “Am I falling behind? Will my role be diminished?”
-
-But here’s the truth: You are not late. Most teams are still in their early stages and uneven. There are no “AI experts” in agile yet—only pioneers and experimenters treating AI as a drafting partner that accelerates exploration while they keep judgment, ethics, and accountability.
-
-The AI FOMO Paradox: Why Agile Practitioners Are Perfectly Positioned for the AI Era
-
-TL; DR: Choose to Become an AI Leader with the AI 4 Agile Online Course
-
-Choose to become a leader
-
-: The course will only be available for sign-up at $129 until
-
-Join the Waitlist of the AI 4 Agile Online Course Now
-
-Master AI Integration for Agile Practitioners—No AI Expertise Required!
-
-The AI 4 Agile Online Course — Out on October 13, 2025
-
-TL; DR: The End of “Good Enough Agile”
-
-“Good Enough Agile” is ending as AI automates mere ceremonial tasks and Product Operating Models demand outcome-focused teams. Agile professionals must evolve from process facilitators to strategic product thinkers or risk obsolescence as organizations adopt AI-native approaches that embody Agile values without ritual overhead.
-
-The End of “Good Enough Agile”: AI and Product Models Are Your Wake-Up Call
-
-TL;DR: A Harvard Study of Procter & Gamble Shows the Way
-
-Harvard Business School study of 776 professionals
-
-found individuals using AI matched the performance of human teams, broke down expertise silos, and experienced more positive emotions during work. For agile practitioners, the choice isn’t between humans or AI but between being AI-augmented or falling behind those who are. The cost of experimentation is low; the potential career advantage, on the other hand, is substantial. A reason to embrace generative AI in Agile?
-
-Generative AI in Agile: A Strategic Career Decision
-
-TL; DR: Bridging Agile and AI with Proper Prompt Engineering
-
-Agile teams have always sought ways to work smarter without compromising their principles. Many have begun experimenting with new technologies, frameworks, or practices to enhance their way of working. Still, they often struggle to get relevant, actionable results that address their specific challenges. Regarding generative AI, there is a better way for agile practitioners than reinventing the wheel team by team—the Agile Prompt Engineering Framework.
-
-Learn why it solves the challenge: a structured approach to prompting AI models designed specifically for agile practitioners who want to leverage this technology as a powerful ally in their journey.
-
-The Agile Prompt Engineering Framework
-
-TL; DR: Join the AI for Agile Practitioners Survey
-
-As AI tools become increasingly integrated into our work, agile practitioners face the million-dollar question:
-
-Will AI make my career obsolete?
-
-I believe the answer is a resounding no—if we choose to understand and adapt to AI’s real impact on our field today and in the coming months.
-
- So, please invest 10 minutes and
-
-join the AI for Agile Practitioners Survey now
-
-Join the AI for Agile Practitioners Survey — Why We Need Your Insights
-
-TL; DR: 60 ChatGPT Prompts for Agile Practitioners
-
-ChatGPT can be an excellent tool for those who know how to create prompts. The simplest form of prompting ChatGPT is to feed it the task and ask for results. However, this approach is unlikely to trigger the best response from the model.
-
-Instead, invest more time in prompt engineering, and provide ChatGPT with a better context of the situation, desired outcomes, data, constraints, etc. The following article offers a primer to creating ChatGPT prompts for Scrum practitioners to get you started running. You will learn:
-
-Prompt engineering basics
-
-Prompt engineering with services like PromptPerfect
-
-Using ChatGPT for prompt engineering. (Yub, that works, too.)
-
-60 ChatGPT Prompts Plus Prompt Engineering Guide for Scrum Practitioners
-
-TL; DR: The Scrum Master Interview Guide to Identify Genuine Scrum Masters
-
-In this comprehensive Scrum Master Interview guide, we delve into 83 critical questions that can help distinguish genuine Scrum Masters from pretenders during interviews. We designed this selection to evaluate the candidates’ theoretical knowledge, practical experience, and ability to apply general Scrum and “Agile “principles effectively in real-world scenarios—as outlined in the Scrum Guide or the Agile Manifesto. Ideal for hiring managers, HR professionals, and future Scrum teammates, this guide provides a toolkit to ensure that your next Scrum Master hire is truly qualified, enhancing your team’s agility and productivity.
-
-If you are a Scrum Master currently looking for a new position, please check out the “Preparing for Your Scrum Master Interview as a Candidate” section below.
-
-So far, this Scrum Master interview guide has been downloaded more than 25,000 times.
-
-Free Ebook: 83 Scrum Master Interview Questions to Identify Suitable Candidates
-
-TL; DR: 82 Product Owner Interview Questions to Avoid Imposters
-
-If you are looking to fill a position for a Product Owner in your organization, you may find the following 82 interview questions useful to identify the right candidate. They are derived from my sixteen years of practical experience with XP and Scrum, serving both as Product Owner and Scrum Master and interviewing dozens of Product Owner candidates on behalf of my clients.
-
-So far, this Product Owner interview guide has been downloaded more than 10,000 times.
-
-Hiring: 82 Scrum Product Owner Interview Questions to Avoid Agile Imposters
-
-TL; DR: Scrum Training Classes, Liberating Structures Workshops, and Events
-
-Age-of-Product.com’s parent company —
-
-Berlin Product People GmbH
-
-— offers Scrum training classes authorized by Scrum.org, Liberating Structures workshops, and hybrid training of Professional Scrum and Liberating Structures. The training classes are offered both in English and German.
-
-Check out the upcoming timetable of training classes, workshops, meetups, and other events below and join your peers.
-
-Upcoming Scrum Training Classes, Liberating Structures Workshops, and Events
-
-TL; DR: Vibe Coding for PMs — Food for Agile Thought #509
-
-Welcome to the 509th edition of the Food for Agile Thought newsletter, shared with 40,501 peers. This week, Aatir Abdul Rauf highlights the rise of vibe coding for PMs as a core skill, offering 23 tips from prototyping to tool chaining. Arbaz Surti reflects on GPT-5’s turbulent launch, urging PMs to prioritize empathy, transparency, and careful rollouts to preserve trust, and Audrey Xu Leung stresses that experimentation succeeds when rooted in ethical, data-driven cultures of curiosity. Jing Hu explores the AI Enthusiasm Paradox between novices and experts, while Ethan Mollick examines Mass Intelligence reshaping trust, expertise, and work.
-
-Next, Ian Vanagas offers nine lessons for building AI features, from guardrails to continuous evaluation. Teresa Torres shares how simple evals and tracing improved Product Talk’s Interview Coach and reinforced discovery habits. Steve Newman cautions that, despite GPT-5’s progress, agentic AI remains far off. Also, Seth Godin suggests creatives either walk away with slower, deeper work or dance with AI tools, and John Cutler maps nine organizational design patterns and strategies to navigate them.
-
-Lastly, Ron Jeffries warns that overreliance on LLMs erodes learning and true ownership of solutions. Pim de Morree shares how Liip’s pay transparency and Hypoport’s role clarity shape authentic self-management; Brian Balfour highlights sudden product market fit collapses triggered by AI shifts, leaving incumbents scrambling, and Addy Osmani distinguishes vibe coding from disciplined engineering, stressing reviews and tests for quality. Finally, Jenn Spykerman cautions that most AI pilots never scale, urging leaders to measure real production ROI.
-
-Age-of-Product.com’s parent company — Berlin Product People GmbH — offers Scrum training classes authorized by Scrum.org, Liberating Structures workshops, and hybrid training of Professional Scrum and Liberating Structures. The training classes are offered both in English and German.
-
-Check out the upcoming timetable of training classes, workshops, meetups, and other events below and join your peers.
-
-Food for Agile Thought #509: Vibe Coding for Product Managers, Mass Intelligence, Walk Away or Dance, Disruption by GPU
-
-TL;DR: The Generative AI Precision Anti-Pattern
-
-Here’s another one for your collection: The Generative AI Precision Anti-Pattern, where organizations wield LLMs like precision instruments when they’re probabilistic tools by design. Sound familiar? It’s the same pattern we see when teams cargo-cult agile practices without understanding their purpose.
-
-LLMs excel at text summarization and pattern recognition in large datasets, which helps analyze user feedback or generate documentation drafts, but can they be used for deterministic tasks like calculations? If you are not careful with matching your problem to the right tool, you end up building issues of all kinds into the foundation of your product.
-
-What can you do about it? Spoiler alert: The fix isn’t better prompting, but architectural discipline and tool-job alignment.
-
-The Generative AI Precision Anti-Pattern: Stop Using LLMs for Problems That Demand Correct Answers
-
-TL; DR: AI Employment Effects — Food for Agile Thought #508
-
-Welcome to the 508th edition of the Food for Agile Thought newsletter, shared with 40,487 peers. This week, Erik Brynjolfsson, Bharat Chandar, and Ruyu Chen highlight recent AI employment effects — a 13 percent decline in employment among early-career workers in AI-exposed roles, driven by automation rather than augmentation. Marty Cagan builds on Shreyas Doshi’s product leadership archetypes, emphasizing the irreplaceable role of product craft, and John Cutler encourages teams to treat urgency as a strategic tool. Mustafa Suleyman cautions against overestimating simulated AI consciousness, and James Newhook demonstrates how AI can enhance persona research without replacing human insight.
-
-Next, David Pereira and Anthony Argenziano show how PMs can stay strategic by combining structured discovery with AI support. Anthropic researchers reveal how AI is lowering the barrier for cybercrime at scale. Also, Ant Murphy outlines seven habits of effective, team-first leaders, while Graham Ward defends coaching as a deeply human craft built on trust. Zvi Mowshowitz challenges claims of AI stagnation, pointing instead to flawed expectations and brittle workflows.
-
-Lastly, Tiffany Anderson demonstrates how misaligned teams hinder growth and how a shared understanding of customers accelerates execution. Nick Lichtenberg reveals that a booming shadow AI economy is quietly outperforming official adoption. Sangeet Paul Choudary calls for AI-native business models, not bolt-ons, while Andi Roberts reframes chronic complaints as unmet needs. Finally, Martin Fowler urges hands-on AI experimentation while warning of hallucinations, security risks, and the misleading comfort of surveys and hype cycles.
-
-Food for Agile Thought #508: AI Employment Effects, Product Leadership Archetypes, Team Alignment, Endless Complaining
-
-TL; DR: Meta Prompting
-
-We’ve all been there: You’re preparing for the next Retrospective, and you turn to ChatGPT for help. “Give me some Retrospective ideas,” you type. What do you get back? Generic templates you’ve seen a hundred times before: Set the Stage, Gather Data, Generate Insights, Decide What to Do, and Close the Retrospective. (Kudos to Esther Derby and Diana Larsen for the format!) The problem isn’t the AI. It’s how we’re asking: We are ignoring the benefits of Meta Prompting or having a conversation with the AI before jumping to task completion.
-
-So, let’s start partnering with our AI. (📺
-
-Prefer to watch a video? This is a session of the upcoming AI 4 Agile Online Course
-
-Meta Prompting: Making AI Your Conversation Partner
+Scrum Definition 
+Scrum is a lightweight framework that helps people, teams and organizations generate value through 
+adaptive solutions for complex problems.  
+In a nutshell, Scrum requires a Scrum Master to foster an environment where: 
+1. A Product Owner orders the work for a complex problem into a Product Backlog. 
+2. The Scrum Team turns a selection of the work into an Increment of value during a Sprint. 
+3. The Scrum Team and its stakeholders inspect the results and adjust for the next Sprint. 
+4. Repeat 
+Scrum is simple. Try it as is and determine if its philosophy, theory, and structure help to achieve goals 
+and create value. The Scrum framework is purposefully incomplete, only defining the parts required to 
+implement Scrum theory. Scrum is built upon by the collective intelligence of the people using it. Rather 
+than provide people with detailed instructions, the rules of Scrum guide their relationships and 
+interactions. 
+Various processes, techniques and methods can be employed within the framework. Scrum wraps 
+around existing practices or renders them unnecessary. Scrum makes visible the relative efficacy of 
+current management, environment, and work techniques, so that improvements can be made. 
+Scrum Theory 
+Scrum is founded on empiricism and lean thinking. Empiricism asserts that knowledge comes from 
+experience and making decisions based on what is observed. Lean thinking reduces waste and focuses 
+on the essentials. 
+Scrum employs an iterative, incremental approach to optimize predictability and to control risk. Scrum 
+engages groups of people who collectively have all the skills and expertise to do the work and share or 
+acquire such skills as needed. 
+Scrum combines four formal events for inspection and adaptation within a containing event, the Sprint. 
+These events work because they implement the empirical Scrum pillars of transparency, inspection, and 
+adaptation. 
+Transparency 
+The emergent process and work must be visible to those performing the work as well as those receiving 
+the work. With Scrum, important decisions are based on the perceived state of its three formal artifacts. 
+Artifacts that have low transparency can lead to decisions that diminish value and increase risk. 
+3 
+Transparency enables inspection. Inspection without transparency is misleading and wasteful. 
+Inspection 
+The Scrum artifacts and the progress toward agreed goals must be inspected frequently and diligently to 
+detect potentially undesirable variances or problems. To help with inspection, Scrum provides cadence 
+in the form of its five events. 
+Inspection enables adaptation. Inspection without adaptation is considered pointless. Scrum events are 
+designed to provoke change. 
+Adaptation 
+If any aspects of a process deviate outside acceptable limits or if the resulting product is unacceptable, 
+the process being applied or the materials being produced must be adjusted. The adjustment must be 
+made as soon as possible to minimize further deviation. 
+Adaptation becomes more difficult when the people involved are not empowered or self-managing. A 
+Scrum Team is expected to adapt the moment it learns anything new through inspection. 
+Scrum Values 
+Successful use of Scrum depends on people becoming more proficient in living five values: 
+Commitment, Focus, Openness, Respect, and Courage 
+The Scrum Team commits to achieving its goals and to supporting each other. Their primary focus is on 
+the work of the Sprint to make the best possible progress toward these goals. The Scrum Team and its 
+stakeholders are open about the work and the challenges. Scrum Team members respect each other to 
+be capable, independent people, and are respected as such by the people with whom they work. The 
+Scrum Team members have the courage to do the right thing, to work on tough problems. 
+These values give direction to the Scrum Team with regard to their work, actions, and behavior. The 
+decisions that are made, the steps taken, and the way Scrum is used should reinforce these values, not 
+diminish or undermine them. The Scrum Team members learn and explore the values as they work with 
+the Scrum events and artifacts. When these values are embodied by the Scrum Team and the people 
+they work with, the empirical Scrum pillars of transparency, inspection, and adaptation come to life 
+building trust. 
+4 
+Scrum Team 
+The fundamental unit of Scrum is a small team of people, a Scrum Team. The Scrum Team consists of 
+one Scrum Master, one Product Owner, and Developers. Within a Scrum Team, there are no sub-teams 
+or hierarchies. It is a cohesive unit of professionals focused on one objective at a time, the Product Goal. 
+Scrum Teams are cross-functional, meaning the members have all the skills necessary to create value 
+each Sprint. They are also self-managing, meaning they internally decide who does what, when, and 
+how. 
+The Scrum Team is small enough to remain nimble and large enough to complete significant work within 
+a Sprint, typically 10 or fewer people. In general, we have found that smaller teams communicate better 
+and are more productive. If Scrum Teams become too large, they should consider reorganizing into 
+multiple cohesive Scrum Teams, each focused on the same product. Therefore, they should share the 
+same Product Goal, Product Backlog, and Product Owner. 
+The Scrum Team is responsible for all product-related activities from stakeholder collaboration, 
+verification, maintenance, operation, experimentation, research and development, and anything else 
+that might be required. They are structured and empowered by the organization to manage their own 
+work. Working in Sprints at a sustainable pace improves the Scrum Team’s focus and consistency. 
+The entire Scrum Team is accountable for creating a valuable, useful Increment every Sprint. Scrum 
+defines three specific accountabilities within the Scrum Team: the Developers, the Product Owner, and 
+the Scrum Master.  
+Developers 
+Developers are the people in the Scrum Team that are committed to creating any aspect of a usable 
+Increment each Sprint.  
+The specific skills needed by the Developers are often broad and will vary with the domain of work. 
+However, the Developers are always accountable for: 
+● Creating a plan for the Sprint, the Sprint Backlog; 
+● Instilling quality by adhering to a Definition of Done; 
+● Adapting their plan each day toward the Sprint Goal; and, 
+● Holding each other accountable as professionals. 
+Product Owner 
+The Product Owner is accountable for maximizing the value of the product resulting from the work of 
+the Scrum Team. How this is done may vary widely across organizations, Scrum Teams, and individuals. 
+5 
+The Product Owner is also accountable for effective Product Backlog management, which includes: 
+● Developing and explicitly communicating the Product Goal; 
+● Creating and clearly communicating Product Backlog items; 
+● Ordering Product Backlog items; and, 
+● Ensuring that the Product Backlog is transparent, visible and understood. 
+The Product Owner may do the above work or may delegate the responsibility to others. Regardless, the 
+Product Owner remains accountable. 
+For Product Owners to succeed, the entire organization must respect their decisions. These decisions 
+are visible in the content and ordering of the Product Backlog, and through the inspectable Increment at 
+the Sprint Review.  
+The Product Owner is one person, not a committee. The Product Owner may represent the needs of 
+many stakeholders in the Product Backlog. Those wanting to change the Product Backlog can do so by 
+trying to convince the Product Owner. 
+Scrum Master 
+The Scrum Master is accountable for establishing Scrum as defined in the Scrum Guide. They do this by 
+helping everyone understand Scrum theory and practice, both within the Scrum Team and the 
+organization. 
+The Scrum Master is accountable for the Scrum Team’s effectiveness. They do this by enabling the 
+Scrum Team to improve its practices, within the Scrum framework. 
+Scrum Masters are true leaders who serve the Scrum Team and the larger organization. 
+The Scrum Master serves the Scrum Team in several ways, including: 
+● Coaching the team members in self-management and cross-functionality; 
+● Helping the Scrum Team focus on creating high-value Increments that meet the Definition of 
+Done; 
+● Causing the removal of impediments to the Scrum Team’s progress; and, 
+● Ensuring that all Scrum events take place and are positive, productive, and kept within the 
+timebox. 
+The Scrum Master serves the Product Owner in several ways, including: 
+6 
+● Helping find techniques for effective Product Goal definition and Product Backlog management; 
+● Helping the Scrum Team understand the need for clear and concise Product Backlog items; 
+● Helping establish empirical product planning for a complex environment; and, 
+● Facilitating stakeholder collaboration as requested or needed. 
+The Scrum Master serves the organization in several ways, including: 
+● Leading, training, and coaching the organization in its Scrum adoption; 
+● Planning and advising Scrum implementations within the organization;  
+● Helping employees and stakeholders understand and enact an empirical approach for complex 
+work; and, 
+● Removing barriers between stakeholders and Scrum Teams. 
+Scrum Events 
+The Sprint is a container for all other events. Each event in Scrum is a formal opportunity to inspect and 
+adapt Scrum artifacts. These events are specifically designed to enable the transparency required. 
+Failure to operate any events as prescribed results in lost opportunities to inspect and adapt. Events are 
+used in Scrum to create regularity and to minimize the need for meetings not defined in Scrum.  
+Optimally, all events are held at the same time and place to reduce complexity. 
+The Sprint 
+Sprints are the heartbeat of Scrum, where ideas are turned into value. 
+They are fixed length events of one month or less to create consistency. A new Sprint starts immediately 
+after the conclusion of the previous Sprint. 
+All the work necessary to achieve the Product Goal, including Sprint Planning, Daily Scrums, Sprint 
+Review, and Sprint Retrospective, happen within Sprints. 
+During the Sprint: 
+● No changes are made that would endanger the Sprint Goal; 
+● Quality does not decrease; 
+● The Product Backlog is refined as needed; and, 
+● Scope may be clarified and renegotiated with the Product Owner as more is learned. 
+Sprints enable predictability by ensuring inspection and adaptation of progress toward a Product Goal at 
+least every calendar month. When a Sprint’s horizon is too long the Sprint Goal may become invalid, 
+complexity may rise, and risk may increase. Shorter Sprints can be employed to generate more learning 
+7 
+cycles and limit risk of cost and effort to a smaller time frame. Each Sprint may be considered a short 
+project. 
+Various practices exist to forecast progress, like burn-downs, burn-ups, or cumulative flows. While 
+proven useful, these do not replace the importance of empiricism. In complex environments, what will 
+happen is unknown. Only what has already happened may be used for forward-looking decision making. 
+A Sprint could be cancelled if the Sprint Goal becomes obsolete. Only the Product Owner has the 
+authority to cancel the Sprint.  
+Sprint Planning 
+Sprint Planning initiates the Sprint by laying out the work to be performed for the Sprint. This resulting 
+plan is created by the collaborative work of the entire Scrum Team. 
+The Product Owner ensures that attendees are prepared to discuss the most important Product Backlog 
+items and how they map to the Product Goal. The Scrum Team may also invite other people to attend 
+Sprint Planning to provide advice. 
+Sprint Planning addresses the following topics:  
+Topic One: Why is this Sprint valuable? 
+The Product Owner proposes how the product could increase its value and utility in the current Sprint. 
+The whole Scrum Team then collaborates to define a Sprint Goal that communicates why the Sprint is 
+valuable to stakeholders. The Sprint Goal must be finalized prior to the end of Sprint Planning. 
+Topic Two: What can be Done this Sprint? 
+Through discussion with the Product Owner, the Developers select items from the Product Backlog to 
+include in the current Sprint. The Scrum Team may refine these items during this process, which 
+increases understanding and confidence. 
+Selecting how much can be completed within a Sprint may be challenging. However, the more the 
+Developers know about their past performance, their upcoming capacity, and their Definition of Done, 
+the more confident they will be in their Sprint forecasts. 
+Topic Three: How will the chosen work get done? 
+For each selected Product Backlog item, the Developers plan the work necessary to create an Increment 
+that meets the Definition of Done. This is often done by decomposing Product Backlog items into 
+smaller work items of one day or less. How this is done is at the sole discretion of the Developers. No 
+one else tells them how to turn Product Backlog items into Increments of value. 
+8 
+The Sprint Goal, the Product Backlog items selected for the Sprint, plus the plan for delivering them are 
+together referred to as the Sprint Backlog. 
+Sprint Planning is timeboxed to a maximum of eight hours for a one-month Sprint. For shorter Sprints, 
+the event is usually shorter. 
+Daily Scrum 
+The purpose of the Daily Scrum is to inspect progress toward the Sprint Goal and adapt the Sprint 
+Backlog as necessary, adjusting the upcoming planned work. 
+The Daily Scrum is a 15-minute event for the Developers of the Scrum Team. To reduce complexity, it is 
+held at the same time and place every working day of the Sprint. If the Product Owner or Scrum Master 
+are actively working on items in the Sprint Backlog, they participate as Developers. 
+The Developers can select whatever structure and techniques they want, as long as their Daily Scrum 
+focuses on progress toward the Sprint Goal and produces an actionable plan for the next day of work. 
+This creates focus and improves self-management. 
+Daily Scrums improve communications, identify impediments, promote quick decision-making, and 
+consequently eliminate the need for other meetings.  
+The Daily Scrum is not the only time Developers are allowed to adjust their plan. They often meet 
+throughout the day for more detailed discussions about adapting or re-planning the rest of the Sprint’s 
+work.  
+Sprint Review 
+The purpose of the Sprint Review is to inspect the outcome of the Sprint and determine future 
+adaptations. The Scrum Team presents the results of their work to key stakeholders and progress 
+toward the Product Goal is discussed. 
+During the event, the Scrum Team and stakeholders review what was accomplished in the Sprint and 
+what has changed in their environment. Based on this information, attendees collaborate on what to do 
+next. The Product Backlog may also be adjusted to meet new opportunities. The Sprint Review is a 
+working session and the Scrum Team should avoid limiting it to a presentation. 
+The Sprint Review is the second to last event of the Sprint and is timeboxed to a maximum of four hours 
+for a one-month Sprint. For shorter Sprints, the event is usually shorter. 
+9 
+Sprint Retrospective 
+The purpose of the Sprint Retrospective is to plan ways to increase quality and effectiveness. 
+The Scrum Team inspects how the last Sprint went with regards to individuals, interactions, processes, 
+tools, and their Definition of Done. Inspected elements often vary with the domain of work. 
+Assumptions that led them astray are identified and their origins explored. The Scrum Team discusses 
+what went well during the Sprint, what problems it encountered, and how those problems were (or 
+were not) solved. 
+The Scrum Team identifies the most helpful changes to improve its effectiveness. The most impactful 
+improvements are addressed as soon as possible. They may even be added to the Sprint Backlog for the 
+next Sprint. 
+The Sprint Retrospective concludes the Sprint. It is timeboxed to a maximum of three hours for a one
+month Sprint. For shorter Sprints, the event is usually shorter. 
+Scrum Artifacts 
+Scrum’s artifacts represent work or value. They are designed to maximize transparency of key 
+information. Thus, everyone inspecting them has the same basis for adaptation. 
+Each artifact contains a commitment to ensure it provides information that enhances transparency and 
+focus against which progress can be measured: 
+● For the Product Backlog it is the Product Goal. 
+● For the Sprint Backlog it is the Sprint Goal. 
+● For the Increment it is the Definition of Done. 
+These commitments exist to reinforce empiricism and the Scrum values for the Scrum Team and their 
+stakeholders. 
+Product Backlog 
+The Product Backlog is an emergent, ordered list of what is needed to improve the product.  It is the 
+single source of work undertaken by the Scrum Team.  
+Product Backlog items that can be Done by the Scrum Team within one Sprint are deemed ready for 
+selection in a Sprint Planning event. They usually acquire this degree of transparency after refining 
+activities. Product Backlog refinement is the act of breaking down and further defining Product Backlog 
+items into smaller more precise items. This is an ongoing activity to add details, such as a description, 
+order, and size. Attributes often vary with the domain of work. 
+10 
+The Developers who will be doing the work are responsible for the sizing. The Product Owner may 
+influence the Developers by helping them understand and select trade-offs.  
+Commitment: Product Goal 
+The Product Goal describes a future state of the product which can serve as a target for the Scrum Team 
+to plan against. The Product Goal is in the Product Backlog. The rest of the Product Backlog emerges to 
+define “what” will fulfill the Product Goal.  
+A product is a vehicle to deliver value. It has a clear boundary, known stakeholders, well-defined 
+users or customers. A product could be a service, a physical product, or something more abstract.  
+The Product Goal is the long-term objective for the Scrum Team. They must fulfill (or abandon) one 
+objective before taking on the next. 
+Sprint Backlog  
+The Sprint Backlog is composed of the Sprint Goal (why), the set of Product Backlog items selected for 
+the Sprint (what), as well as an actionable plan for delivering the Increment (how). 
+The Sprint Backlog is a plan by and for the Developers. It is a highly visible, real-time picture of the work 
+that the Developers plan to accomplish during the Sprint in order to achieve the Sprint Goal. 
+Consequently, the Sprint Backlog is updated throughout the Sprint as more is learned. It should have 
+enough detail that they can inspect their progress in the Daily Scrum. 
+Commitment: Sprint Goal 
+The Sprint Goal is the single objective for the Sprint. Although the Sprint Goal is a commitment by the 
+Developers, it provides flexibility in terms of the exact work needed to achieve it. The Sprint Goal also 
+creates coherence and focus, encouraging the Scrum Team to work together rather than on separate 
+initiatives. 
+The Sprint Goal is created during the Sprint Planning event and then added to the Sprint Backlog.  As the 
+Developers work during the Sprint, they keep the Sprint Goal in mind. If the work turns out to be 
+different than they expected, they collaborate with the Product Owner to negotiate the scope of the 
+Sprint Backlog within the Sprint without affecting the Sprint Goal. 
+Increment 
+An Increment is a concrete stepping stone toward the Product Goal. Each Increment is additive to all 
+prior Increments and thoroughly verified, ensuring that all Increments work together. In order to 
+provide value, the Increment must be usable. 
+11 
+Multiple Increments may be created within a Sprint. The sum of the Increments is presented at the 
+Sprint Review thus supporting empiricism. However, an Increment may be delivered to stakeholders 
+prior to the end of the Sprint. The Sprint Review should never be considered a gate to releasing value.   
+Work cannot be considered part of an Increment unless it meets the Definition of Done. 
+Commitment: Definition of Done 
+The Definition of Done is a formal description of the state of the Increment when it meets the quality 
+measures required for the product.  
+The moment a Product Backlog item meets the Definition of Done, an Increment is born. 
+The Definition of Done creates transparency by providing everyone a shared understanding of what 
+work was completed as part of the Increment. If a Product Backlog item does not meet the Definition of 
+Done, it cannot be released or even presented at the Sprint Review. Instead, it returns to the Product 
+Backlog for future consideration.  
+If the Definition of Done for an increment is part of the standards of the organization, all Scrum Teams 
+must follow it as a minimum. If it is not an organizational standard, the Scrum Team must create a 
+Definition of Done appropriate for the product.  
+The Developers are required to conform to the Definition of Done. If there are multiple Scrum Teams 
+working together on a product, they must mutually define and comply with the same Definition of Done. 
+12 
+End Note 
+Scrum is free and offered in this Guide. The Scrum framework, as outlined herein, is immutable. While 
+implementing only parts of Scrum is possible, the result is not Scrum. Scrum exists only in its entirety 
+and functions well as a container for other techniques, methodologies, and practices. 
+Acknowledgements 
+People  
+Of the thousands of people who have contributed to Scrum, we should single out those who were 
+instrumental at the start: Jeff Sutherland worked with Jeff McKenna and John Scumniotales, and Ken 
+Schwaber worked with Mike Smith and Chris Martin, and all of them worked together. Many others 
+contributed in the ensuing years and without their help Scrum would not be refined as it is today. 
+Scrum Guide History 
+Ken Schwaber and Jeff Sutherland first co-presented Scrum at the OOPSLA Conference in 1995. It 
+essentially documented the learning that Ken and Jeff gained over the previous few years and made 
+public the first formal definition of Scrum. 
+The Scrum Guide documents Scrum as developed, evolved, and sustained for 30-plus years by Jeff 
+Sutherland and Ken Schwaber. Other sources provide patterns, processes, and insights that complement 
+the Scrum framework. These may increase productivity, value, creativity, and satisfaction with the 
+results. 
+The complete history of Scrum is described elsewhere. To honor the first places where it was tried and 
+proven, we recognize Individual Inc., Newspage, Fidelity Investments, and IDX (now GE Medical). 
