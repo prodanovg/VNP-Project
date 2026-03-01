@@ -1,0 +1,5 @@
+Adding conference resolution
+Evaluation section
+Website and every user can create its own schema for its type of files/pdfs/videos
+NLP on the end for better triples resolution
+Adding RAG system for newest information(im not sure how i will implement this or will this even work)?
